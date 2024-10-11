@@ -1,0 +1,83 @@
+<!-- Путь: templates/news/article_detail.html -->
+{% extends 'news/default.html' %}
+{% load censor_filters %}  <!-- Подключение фильтра censor -->
+
+{% block title %}Публикация  {{ article.title }}{% endblock %}
+
+{% block header %}Публикация - {{ article.title|censor }}{% endblock %}
+
+{% block content %}
+    <h1>{{ article.title|censor }}</h1> <!-- Применение фильтра к заголовку -->
+
+    <div class="form-group mb-4">
+        <div class="info-row">
+            <div>
+                <strong class="label">Автор:</strong>
+                <span class="author">{{ article.author_profile.user.first_name }} {{ article.author_profile.user.last_name }}</span>
+            </div>
+
+            <div>
+                <strong class="label">Тип публикации:</strong>
+                <span>{{ article.article_type|yesno:"Новость,Статья" }}</span>
+            </div>
+
+            <!-- Добавляем вывод категории -->
+            <div>
+                <strong class="label">Категория:</strong>
+                <span>{{ article.category.name|default:"Категория не указана" }}</span>
+            </div>
+
+            <div>
+                <strong class="label">Дата публикации:</strong>
+                <span>{{ article.publication_date }}</span>
+            </div>
+
+            <div>
+                <strong class="label">Рейтинг публикации:</strong>
+                {% with rating_value=article.rating.value %}
+                    <span>{{ rating_value|default:"Рейтинга пока нет" }}</span>
+                {% endwith %}
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group mb-4">
+        <strong class="label">Содержание:</strong>
+    </div>
+
+    <p>{{ article.content|censor }}</p> <!-- Применение фильтра к тексту -->
+
+
+    <!-- Кнопки "Редактировать" и "Удалить" для автора поста -->
+    {% if user.is_authenticated and user == article.author_profile.user %}
+        <div class="form-group mb-4">
+            <a href="{% url 'edit_post' article.pk %}?article_type={{ article.article_type|yesno:'1,0' }}" class="btn btn-warning">Редактировать</a>
+            <a href="{% url 'delete_post' article.pk %}?article_type={{ article.article_type|yesno:'1,0' }}" class="btn btn-danger" onclick="return confirm('Вы уверены, что хотите удалить эту публикацию?');">Удалить</a>
+        </div>
+    {% endif %}
+
+
+    <!-- Форма для подписки на категорию -->
+    <div class="subscription">
+        {% if user.is_authenticated %}
+            {% if user in article.category.subscribers.all %}
+                <p>Вы подписаны на категорию {{ article.category.name }}.</p>
+            {% else %}
+                <form method="POST" action="{% url 'subscribe_to_category' article.category.id %}">
+                    {% csrf_token %}
+                    <!-- Передаём ID статьи -->
+                    <input type="hidden" name="article_id" value="{{ article.id }}">
+
+                    <!-- Передача параметра use_console_backend (по умолчанию True для тестирования) -->
+                    <input type="hidden" name="use_console_backend" value="True">
+
+                    <button type="submit" class="btn btn-primary">Подпишитесь на категорию {{ article.category.name }}</button>
+                </form>
+            {% endif %}
+        {% else %}
+            <p>Чтобы подписаться на категорию, необходимо <a href="{% url 'login' %}">войти в систему</a>.</p>
+        {% endif %}
+    </div>
+
+
+{% endblock %}

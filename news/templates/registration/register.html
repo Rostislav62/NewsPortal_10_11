@@ -1,0 +1,27 @@
+
+<!-- news/templates/news/register.html -->
+
+{% extends 'news/default.html' %}
+{% load static %}  <!-- Подключение статических файлов -->
+{% load socialaccount %}
+
+{% block content %}
+  <h2>Регистрация</h2>
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+
+    <p>Account type: Simple</p>
+    <p>User type: Reader</p>
+
+    <button type="submit" class="btn btn-primary">Зарегистрироваться</button>
+  </form>
+
+  <hr>
+
+  <p>Войти через:</p>
+  <a href="{% provider_login_url 'yandex' %}">
+      <img src="{% static 'pictures/yandex_logo.jpg' %}" alt="Войти через Yandex" width="100" height="auto">
+  </a>
+
+{% endblock %}

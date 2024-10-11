@@ -1,0 +1,3951 @@
+{
+    "django_migrations": [
+        {
+            "id": 1,
+            "app": "contenttypes",
+            "name": "0001_initial",
+            "applied": "2024-09-19 15:38:47.400247"
+        },
+        {
+            "id": 2,
+            "app": "auth",
+            "name": "0001_initial",
+            "applied": "2024-09-19 15:38:47.436247"
+        },
+        {
+            "id": 3,
+            "app": "admin",
+            "name": "0001_initial",
+            "applied": "2024-09-19 15:38:47.464249"
+        },
+        {
+            "id": 4,
+            "app": "admin",
+            "name": "0002_logentry_remove_auto_add",
+            "applied": "2024-09-19 15:38:47.485443"
+        },
+        {
+            "id": 5,
+            "app": "admin",
+            "name": "0003_logentry_add_action_flag_choices",
+            "applied": "2024-09-19 15:38:47.503581"
+        },
+        {
+            "id": 6,
+            "app": "contenttypes",
+            "name": "0002_remove_content_type_name",
+            "applied": "2024-09-19 15:38:47.526604"
+        },
+        {
+            "id": 7,
+            "app": "auth",
+            "name": "0002_alter_permission_name_max_length",
+            "applied": "2024-09-19 15:38:47.544609"
+        },
+        {
+            "id": 8,
+            "app": "auth",
+            "name": "0003_alter_user_email_max_length",
+            "applied": "2024-09-19 15:38:47.563616"
+        },
+        {
+            "id": 9,
+            "app": "auth",
+            "name": "0004_alter_user_username_opts",
+            "applied": "2024-09-19 15:38:47.578763"
+        },
+        {
+            "id": 10,
+            "app": "auth",
+            "name": "0005_alter_user_last_login_null",
+            "applied": "2024-09-19 15:38:47.600464"
+        },
+        {
+            "id": 11,
+            "app": "auth",
+            "name": "0006_require_contenttypes_0002",
+            "applied": "2024-09-19 15:38:47.614360"
+        },
+        {
+            "id": 12,
+            "app": "auth",
+            "name": "0007_alter_validators_add_error_messages",
+            "applied": "2024-09-19 15:38:47.630472"
+        },
+        {
+            "id": 13,
+            "app": "auth",
+            "name": "0008_alter_user_username_max_length",
+            "applied": "2024-09-19 15:38:47.649443"
+        },
+        {
+            "id": 14,
+            "app": "auth",
+            "name": "0009_alter_user_last_name_max_length",
+            "applied": "2024-09-19 15:38:47.668650"
+        },
+        {
+            "id": 15,
+            "app": "auth",
+            "name": "0010_alter_group_name_max_length",
+            "applied": "2024-09-19 15:38:47.688809"
+        },
+        {
+            "id": 16,
+            "app": "auth",
+            "name": "0011_update_proxy_permissions",
+            "applied": "2024-09-19 15:38:47.706488"
+        },
+        {
+            "id": 17,
+            "app": "auth",
+            "name": "0012_alter_user_first_name_max_length",
+            "applied": "2024-09-19 15:38:47.725409"
+        },
+        {
+            "id": 18,
+            "app": "news",
+            "name": "0001_initial",
+            "applied": "2024-09-19 15:38:47.766407"
+        },
+        {
+            "id": 19,
+            "app": "sessions",
+            "name": "0001_initial",
+            "applied": "2024-09-19 15:38:47.794201"
+        },
+        {
+            "id": 20,
+            "app": "news",
+            "name": "0002_alter_userprofile_account_type",
+            "applied": "2024-09-19 16:15:02.396632"
+        },
+        {
+            "id": 21,
+            "app": "news",
+            "name": "0002_remove_profile_account_type_remove_profile_is_author",
+            "applied": "2024-09-24 09:13:44.854399"
+        },
+        {
+            "id": 22,
+            "app": "sites",
+            "name": "0001_initial",
+            "applied": "2024-09-30 09:07:44.360522"
+        },
+        {
+            "id": 23,
+            "app": "sites",
+            "name": "0002_alter_domain_unique",
+            "applied": "2024-09-30 09:07:44.378625"
+        },
+        {
+            "id": 24,
+            "app": "account",
+            "name": "0001_initial",
+            "applied": "2024-09-30 16:11:16.172779"
+        },
+        {
+            "id": 25,
+            "app": "account",
+            "name": "0002_email_max_length",
+            "applied": "2024-09-30 16:11:16.196259"
+        },
+        {
+            "id": 26,
+            "app": "account",
+            "name": "0003_alter_emailaddress_create_unique_verified_email",
+            "applied": "2024-09-30 16:11:16.220452"
+        },
+        {
+            "id": 27,
+            "app": "account",
+            "name": "0004_alter_emailaddress_drop_unique_email",
+            "applied": "2024-09-30 16:11:16.243468"
+        },
+        {
+            "id": 28,
+            "app": "account",
+            "name": "0005_emailaddress_idx_upper_email",
+            "applied": "2024-09-30 16:11:16.267333"
+        },
+        {
+            "id": 29,
+            "app": "account",
+            "name": "0006_emailaddress_lower",
+            "applied": "2024-09-30 16:11:16.286032"
+        },
+        {
+            "id": 30,
+            "app": "account",
+            "name": "0007_emailaddress_idx_email",
+            "applied": "2024-09-30 16:11:16.315542"
+        },
+        {
+            "id": 31,
+            "app": "account",
+            "name": "0008_emailaddress_unique_primary_email_fixup",
+            "applied": "2024-09-30 16:11:16.345333"
+        },
+        {
+            "id": 32,
+            "app": "account",
+            "name": "0009_emailaddress_unique_primary_email",
+            "applied": "2024-09-30 16:11:16.366043"
+        },
+        {
+            "id": 33,
+            "app": "socialaccount",
+            "name": "0001_initial",
+            "applied": "2024-09-30 16:11:16.422455"
+        },
+        {
+            "id": 34,
+            "app": "socialaccount",
+            "name": "0002_token_max_lengths",
+            "applied": "2024-09-30 16:11:16.453754"
+        },
+        {
+            "id": 35,
+            "app": "socialaccount",
+            "name": "0003_extra_data_default_dict",
+            "applied": "2024-09-30 16:11:16.471406"
+        },
+        {
+            "id": 36,
+            "app": "socialaccount",
+            "name": "0004_app_provider_id_settings",
+            "applied": "2024-09-30 16:11:16.506413"
+        },
+        {
+            "id": 37,
+            "app": "socialaccount",
+            "name": "0005_socialtoken_nullable_app",
+            "applied": "2024-09-30 16:11:16.532880"
+        },
+        {
+            "id": 38,
+            "app": "socialaccount",
+            "name": "0006_alter_socialaccount_extra_data",
+            "applied": "2024-09-30 16:11:16.558638"
+        },
+        {
+            "id": 39,
+            "app": "socialaccount",
+            "name": "0007_alter_socialaccount_extra_data_and_more",
+            "applied": "2024-09-30 16:11:16.584103"
+        },
+        {
+            "id": 40,
+            "app": "news",
+            "name": "0002_alter_category_options_category_subscribers_and_more",
+            "applied": "2024-10-01 14:08:39.531652"
+        },
+        {
+            "id": 41,
+            "app": "django_apscheduler",
+            "name": "0001_initial",
+            "applied": "2024-10-04 10:50:55.440285"
+        },
+        {
+            "id": 42,
+            "app": "django_apscheduler",
+            "name": "0002_auto_20180412_0758",
+            "applied": "2024-10-04 10:50:55.461290"
+        },
+        {
+            "id": 43,
+            "app": "django_apscheduler",
+            "name": "0003_auto_20200716_1632",
+            "applied": "2024-10-04 10:50:55.482469"
+        },
+        {
+            "id": 44,
+            "app": "django_apscheduler",
+            "name": "0004_auto_20200717_1043",
+            "applied": "2024-10-04 10:50:55.503001"
+        },
+        {
+            "id": 45,
+            "app": "django_apscheduler",
+            "name": "0005_migrate_name_to_id",
+            "applied": "2024-10-04 10:50:55.526006"
+        },
+        {
+            "id": 46,
+            "app": "django_apscheduler",
+            "name": "0006_remove_djangojob_name",
+            "applied": "2024-10-04 10:50:55.542007"
+        },
+        {
+            "id": 47,
+            "app": "django_apscheduler",
+            "name": "0007_auto_20200717_1404",
+            "applied": "2024-10-04 10:50:55.558007"
+        },
+        {
+            "id": 48,
+            "app": "django_apscheduler",
+            "name": "0008_remove_djangojobexecution_started",
+            "applied": "2024-10-04 10:50:55.574007"
+        },
+        {
+            "id": 49,
+            "app": "django_apscheduler",
+            "name": "0009_djangojobexecution_unique_job_executions",
+            "applied": "2024-10-04 10:50:55.590006"
+        },
+        {
+            "id": 50,
+            "app": "django_celery_beat",
+            "name": "0001_initial",
+            "applied": "2024-10-07 08:38:51.337860"
+        },
+        {
+            "id": 51,
+            "app": "django_celery_beat",
+            "name": "0002_auto_20161118_0346",
+            "applied": "2024-10-07 08:38:51.571935"
+        },
+        {
+            "id": 52,
+            "app": "django_celery_beat",
+            "name": "0003_auto_20161209_0049",
+            "applied": "2024-10-07 08:38:51.654959"
+        },
+        {
+            "id": 53,
+            "app": "django_celery_beat",
+            "name": "0004_auto_20170221_0000",
+            "applied": "2024-10-07 08:38:51.723038"
+        },
+        {
+            "id": 54,
+            "app": "django_celery_beat",
+            "name": "0005_add_solarschedule_events_choices",
+            "applied": "2024-10-07 08:38:51.786419"
+        },
+        {
+            "id": 55,
+            "app": "django_celery_beat",
+            "name": "0006_auto_20180322_0932",
+            "applied": "2024-10-07 08:38:51.934469"
+        },
+        {
+            "id": 56,
+            "app": "django_celery_beat",
+            "name": "0007_auto_20180521_0826",
+            "applied": "2024-10-07 08:38:52.042569"
+        },
+        {
+            "id": 57,
+            "app": "django_celery_beat",
+            "name": "0008_auto_20180914_1922",
+            "applied": "2024-10-07 08:38:52.110957"
+        },
+        {
+            "id": 58,
+            "app": "django_celery_beat",
+            "name": "0006_auto_20180210_1226",
+            "applied": "2024-10-07 08:38:52.151481"
+        },
+        {
+            "id": 59,
+            "app": "django_celery_beat",
+            "name": "0006_periodictask_priority",
+            "applied": "2024-10-07 08:38:52.189724"
+        },
+        {
+            "id": 60,
+            "app": "django_celery_beat",
+            "name": "0009_periodictask_headers",
+            "applied": "2024-10-07 08:38:52.216780"
+        },
+        {
+            "id": 61,
+            "app": "django_celery_beat",
+            "name": "0010_auto_20190429_0326",
+            "applied": "2024-10-07 08:38:52.343088"
+        },
+        {
+            "id": 62,
+            "app": "django_celery_beat",
+            "name": "0011_auto_20190508_0153",
+            "applied": "2024-10-07 08:38:52.377106"
+        },
+        {
+            "id": 63,
+            "app": "django_celery_beat",
+            "name": "0012_periodictask_expire_seconds",
+            "applied": "2024-10-07 08:38:52.398106"
+        },
+        {
+            "id": 64,
+            "app": "django_celery_beat",
+            "name": "0013_auto_20200609_0727",
+            "applied": "2024-10-07 08:38:52.423103"
+        },
+        {
+            "id": 65,
+            "app": "django_celery_beat",
+            "name": "0014_remove_clockedschedule_enabled",
+            "applied": "2024-10-07 08:38:52.441929"
+        },
+        {
+            "id": 66,
+            "app": "django_celery_beat",
+            "name": "0015_edit_solarschedule_events_choices",
+            "applied": "2024-10-07 08:38:52.455961"
+        },
+        {
+            "id": 67,
+            "app": "django_celery_beat",
+            "name": "0016_alter_crontabschedule_timezone",
+            "applied": "2024-10-07 08:38:52.481122"
+        },
+        {
+            "id": 68,
+            "app": "django_celery_beat",
+            "name": "0017_alter_crontabschedule_month_of_year",
+            "applied": "2024-10-07 08:38:52.499128"
+        },
+        {
+            "id": 69,
+            "app": "django_celery_beat",
+            "name": "0018_improve_crontab_helptext",
+            "applied": "2024-10-07 08:38:52.518376"
+        },
+        {
+            "id": 70,
+            "app": "django_celery_beat",
+            "name": "0019_alter_periodictasks_options",
+            "applied": "2024-10-07 08:38:52.533528"
+        },
+        {
+            "id": 71,
+            "app": "django_celery_results",
+            "name": "0001_initial",
+            "applied": "2024-10-07 08:38:52.562141"
+        },
+        {
+            "id": 72,
+            "app": "django_celery_results",
+            "name": "0002_add_task_name_args_kwargs",
+            "applied": "2024-10-07 08:38:52.583219"
+        },
+        {
+            "id": 73,
+            "app": "django_celery_results",
+            "name": "0003_auto_20181106_1101",
+            "applied": "2024-10-07 08:38:52.600140"
+        },
+        {
+            "id": 74,
+            "app": "django_celery_results",
+            "name": "0004_auto_20190516_0412",
+            "applied": "2024-10-07 08:38:52.644872"
+        },
+        {
+            "id": 75,
+            "app": "django_celery_results",
+            "name": "0005_taskresult_worker",
+            "applied": "2024-10-07 08:38:52.672874"
+        },
+        {
+            "id": 76,
+            "app": "django_celery_results",
+            "name": "0006_taskresult_date_created",
+            "applied": "2024-10-07 08:38:52.706932"
+        },
+        {
+            "id": 77,
+            "app": "django_celery_results",
+            "name": "0007_remove_taskresult_hidden",
+            "applied": "2024-10-07 08:38:52.725141"
+        },
+        {
+            "id": 78,
+            "app": "django_celery_results",
+            "name": "0008_chordcounter",
+            "applied": "2024-10-07 08:38:52.742716"
+        },
+        {
+            "id": 79,
+            "app": "django_celery_results",
+            "name": "0009_groupresult",
+            "applied": "2024-10-07 08:38:52.802711"
+        },
+        {
+            "id": 80,
+            "app": "django_celery_results",
+            "name": "0010_remove_duplicate_indices",
+            "applied": "2024-10-07 08:38:52.821713"
+        },
+        {
+            "id": 81,
+            "app": "django_celery_results",
+            "name": "0011_taskresult_periodic_task_name",
+            "applied": "2024-10-07 08:38:52.838810"
+        },
+        {
+            "id": 82,
+            "app": "news",
+            "name": "0002_article_type",
+            "applied": "2024-10-07 10:51:45.471000"
+        },
+        {
+            "id": 83,
+            "app": "news",
+            "name": "0003_news",
+            "applied": "2024-10-07 10:51:45.488887"
+        },
+        {
+            "id": 84,
+            "app": "news",
+            "name": "0004_merge_20241007_1151",
+            "applied": "2024-10-07 10:51:45.501888"
+        },
+        {
+            "id": 85,
+            "app": "news",
+            "name": "0005_delete_news_remove_article_type",
+            "applied": "2024-10-07 15:50:34.654725"
+        }
+    ],
+    "sqlite_sequence": [
+        {
+            "name": "django_migrations",
+            "seq": 85
+        },
+        {
+            "name": "django_admin_log",
+            "seq": 46
+        },
+        {
+            "name": "django_content_type",
+            "seq": 29
+        },
+        {
+            "name": "auth_permission",
+            "seq": 116
+        },
+        {
+            "name": "auth_group",
+            "seq": 3
+        },
+        {
+            "name": "auth_user",
+            "seq": 30
+        },
+        {
+            "name": "news_rating",
+            "seq": 5
+        },
+        {
+            "name": "news_profile",
+            "seq": 30
+        },
+        {
+            "name": "news_userprofile",
+            "seq": 10
+        },
+        {
+            "name": "auth_group_permissions",
+            "seq": 21
+        },
+        {
+            "name": "auth_user_groups",
+            "seq": 65
+        },
+        {
+            "name": "django_site",
+            "seq": 1
+        },
+        {
+            "name": "account_emailaddress",
+            "seq": 2
+        },
+        {
+            "name": "socialaccount_socialapp",
+            "seq": 0
+        },
+        {
+            "name": "socialaccount_socialtoken",
+            "seq": 0
+        },
+        {
+            "name": "socialaccount_socialaccount",
+            "seq": 2
+        },
+        {
+            "name": "news_category",
+            "seq": 15
+        },
+        {
+            "name": "news_category_subscribers",
+            "seq": 30
+        },
+        {
+            "name": "django_apscheduler_djangojobexecution",
+            "seq": 8
+        },
+        {
+            "name": "django_celery_beat_periodictask",
+            "seq": 0
+        },
+        {
+            "name": "django_celery_beat_crontabschedule",
+            "seq": 0
+        },
+        {
+            "name": "django_celery_results_chordcounter",
+            "seq": 0
+        },
+        {
+            "name": "django_celery_results_taskresult",
+            "seq": 20
+        },
+        {
+            "name": "news_article",
+            "seq": 64
+        }
+    ],
+    "auth_group_permissions": [
+        {
+            "id": 4,
+            "group_id": 1,
+            "permission_id": 44
+        },
+        {
+            "id": 8,
+            "group_id": 1,
+            "permission_id": 28
+        },
+        {
+            "id": 12,
+            "group_id": 2,
+            "permission_id": 44
+        },
+        {
+            "id": 13,
+            "group_id": 3,
+            "permission_id": 41
+        },
+        {
+            "id": 14,
+            "group_id": 3,
+            "permission_id": 42
+        },
+        {
+            "id": 15,
+            "group_id": 3,
+            "permission_id": 43
+        },
+        {
+            "id": 16,
+            "group_id": 3,
+            "permission_id": 44
+        },
+        {
+            "id": 17,
+            "group_id": 3,
+            "permission_id": 25
+        },
+        {
+            "id": 18,
+            "group_id": 3,
+            "permission_id": 26
+        },
+        {
+            "id": 19,
+            "group_id": 3,
+            "permission_id": 27
+        },
+        {
+            "id": 20,
+            "group_id": 3,
+            "permission_id": 28
+        },
+        {
+            "id": 21,
+            "group_id": 2,
+            "permission_id": 29
+        }
+    ],
+    "auth_user_groups": [
+        {
+            "id": 6,
+            "user_id": 17,
+            "group_id": 1
+        },
+        {
+            "id": 7,
+            "user_id": 17,
+            "group_id": 2
+        },
+        {
+            "id": 18,
+            "user_id": 4,
+            "group_id": 1
+        },
+        {
+            "id": 35,
+            "user_id": 4,
+            "group_id": 2
+        },
+        {
+            "id": 36,
+            "user_id": 4,
+            "group_id": 3
+        },
+        {
+            "id": 37,
+            "user_id": 20,
+            "group_id": 1
+        },
+        {
+            "id": 38,
+            "user_id": 20,
+            "group_id": 3
+        },
+        {
+            "id": 39,
+            "user_id": 2,
+            "group_id": 1
+        },
+        {
+            "id": 40,
+            "user_id": 11,
+            "group_id": 1
+        },
+        {
+            "id": 42,
+            "user_id": 10,
+            "group_id": 1
+        },
+        {
+            "id": 43,
+            "user_id": 5,
+            "group_id": 1
+        },
+        {
+            "id": 44,
+            "user_id": 8,
+            "group_id": 1
+        },
+        {
+            "id": 45,
+            "user_id": 10,
+            "group_id": 3
+        },
+        {
+            "id": 46,
+            "user_id": 23,
+            "group_id": 1
+        },
+        {
+            "id": 47,
+            "user_id": 23,
+            "group_id": 3
+        },
+        {
+            "id": 49,
+            "user_id": 25,
+            "group_id": 1
+        },
+        {
+            "id": 50,
+            "user_id": 26,
+            "group_id": 1
+        },
+        {
+            "id": 51,
+            "user_id": 27,
+            "group_id": 1
+        },
+        {
+            "id": 52,
+            "user_id": 28,
+            "group_id": 1
+        },
+        {
+            "id": 53,
+            "user_id": 29,
+            "group_id": 1
+        },
+        {
+            "id": 54,
+            "user_id": 30,
+            "group_id": 1
+        },
+        {
+            "id": 57,
+            "user_id": 11,
+            "group_id": 3
+        },
+        {
+            "id": 58,
+            "user_id": 11,
+            "group_id": 2
+        },
+        {
+            "id": 61,
+            "user_id": 3,
+            "group_id": 1
+        },
+        {
+            "id": 62,
+            "user_id": 3,
+            "group_id": 3
+        },
+        {
+            "id": 63,
+            "user_id": 3,
+            "group_id": 2
+        },
+        {
+            "id": 65,
+            "user_id": 6,
+            "group_id": 3
+        }
+    ],
+    "auth_user_user_permissions": [],
+    "django_admin_log": [
+        {
+            "id": 1,
+            "object_id": "4",
+            "object_repr": "alexei_petrov",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Username\", \"Email address\"]}}]",
+            "content_type_id": 4,
+            "user_id": 1,
+            "action_time": "2024-09-20 07:40:45.191332"
+        },
+        {
+            "id": 2,
+            "object_id": "4",
+            "object_repr": "alexei_petrov",
+            "action_flag": 2,
+            "change_message": "[]",
+            "content_type_id": 4,
+            "user_id": 1,
+            "action_time": "2024-09-20 07:40:51.158138"
+        },
+        {
+            "id": 3,
+            "object_id": "7",
+            "object_repr": "anna_sokolova",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Username\", \"Email address\"]}}]",
+            "content_type_id": 4,
+            "user_id": 1,
+            "action_time": "2024-09-20 07:41:57.363572"
+        },
+        {
+            "id": 4,
+            "object_id": "2",
+            "object_repr": "vasili_kuznetsov",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Username\", \"Email address\"]}}]",
+            "content_type_id": 4,
+            "user_id": 1,
+            "action_time": "2024-09-20 07:43:04.655245"
+        },
+        {
+            "id": 5,
+            "object_id": "6",
+            "object_repr": "dmitri_kovalev",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Username\", \"Email address\"]}}]",
+            "content_type_id": 4,
+            "user_id": 1,
+            "action_time": "2024-09-20 07:43:36.560404"
+        },
+        {
+            "id": 6,
+            "object_id": "9",
+            "object_repr": "elena_sergeevna",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Username\", \"Email address\"]}}]",
+            "content_type_id": 4,
+            "user_id": 1,
+            "action_time": "2024-09-20 07:44:08.475104"
+        },
+        {
+            "id": 7,
+            "object_id": "3",
+            "object_repr": "ivan_ivanov",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Username\", \"Email address\"]}}]",
+            "content_type_id": 4,
+            "user_id": 1,
+            "action_time": "2024-09-20 07:44:44.377338"
+        },
+        {
+            "id": 8,
+            "object_id": "8",
+            "object_repr": "maria_novikova",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Username\", \"Email address\"]}}]",
+            "content_type_id": 4,
+            "user_id": 1,
+            "action_time": "2024-09-20 07:45:11.856232"
+        },
+        {
+            "id": 9,
+            "object_id": "5",
+            "object_repr": "mihail_smitnov",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Username\", \"Email address\"]}}]",
+            "content_type_id": 4,
+            "user_id": 1,
+            "action_time": "2024-09-20 07:45:47.224188"
+        },
+        {
+            "id": 10,
+            "object_id": "10",
+            "object_repr": "olga_popova",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Username\", \"Email address\"]}}]",
+            "content_type_id": 4,
+            "user_id": 1,
+            "action_time": "2024-09-20 07:46:13.872414"
+        },
+        {
+            "id": 11,
+            "object_id": "11",
+            "object_repr": "svetlana_morozova",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Username\", \"Email address\"]}}]",
+            "content_type_id": 4,
+            "user_id": 1,
+            "action_time": "2024-09-20 07:46:43.265723"
+        },
+        {
+            "id": 12,
+            "object_id": "1",
+            "object_repr": "basic",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 3,
+            "user_id": 1,
+            "action_time": "2024-09-23 07:45:56.939112"
+        },
+        {
+            "id": 13,
+            "object_id": "2",
+            "object_repr": "premium",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 3,
+            "user_id": 1,
+            "action_time": "2024-09-23 07:46:56.202450"
+        },
+        {
+            "id": 14,
+            "object_id": "14",
+            "object_repr": "ase_murt",
+            "action_flag": 3,
+            "change_message": "",
+            "content_type_id": 4,
+            "user_id": 1,
+            "action_time": "2024-09-23 09:10:40.936076"
+        },
+        {
+            "id": 15,
+            "object_id": "12",
+            "object_repr": "egor_toporkov",
+            "action_flag": 3,
+            "change_message": "",
+            "content_type_id": 4,
+            "user_id": 1,
+            "action_time": "2024-09-23 09:10:40.948069"
+        },
+        {
+            "id": 16,
+            "object_id": "13",
+            "object_repr": "manika_obligatsia",
+            "action_flag": 3,
+            "change_message": "",
+            "content_type_id": 4,
+            "user_id": 1,
+            "action_time": "2024-09-23 09:10:40.959341"
+        },
+        {
+            "id": 17,
+            "object_id": "18",
+            "object_repr": "vanea_ionov",
+            "action_flag": 3,
+            "change_message": "",
+            "content_type_id": 4,
+            "user_id": 1,
+            "action_time": "2024-09-23 10:46:40.269650"
+        },
+        {
+            "id": 18,
+            "object_id": "15",
+            "object_repr": "ret_wiret",
+            "action_flag": 3,
+            "change_message": "",
+            "content_type_id": 4,
+            "user_id": 1,
+            "action_time": "2024-09-23 10:46:49.509438"
+        },
+        {
+            "id": 19,
+            "object_id": "16",
+            "object_repr": "gnu_ret",
+            "action_flag": 3,
+            "change_message": "",
+            "content_type_id": 4,
+            "user_id": 1,
+            "action_time": "2024-09-23 10:46:58.079343"
+        },
+        {
+            "id": 20,
+            "object_id": "19",
+            "object_repr": "wert_oiuy",
+            "action_flag": 3,
+            "change_message": "",
+            "content_type_id": 4,
+            "user_id": 1,
+            "action_time": "2024-09-23 11:07:26.724749"
+        },
+        {
+            "id": 21,
+            "object_id": "4",
+            "object_repr": "alexei_petrov",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]",
+            "content_type_id": 4,
+            "user_id": 1,
+            "action_time": "2024-09-23 12:23:45.844433"
+        },
+        {
+            "id": 22,
+            "object_id": "4",
+            "object_repr": "alexei_petrov",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]",
+            "content_type_id": 4,
+            "user_id": 1,
+            "action_time": "2024-09-23 12:24:35.431210"
+        },
+        {
+            "id": 23,
+            "object_id": "4",
+            "object_repr": "alexei_petrov",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]",
+            "content_type_id": 4,
+            "user_id": 1,
+            "action_time": "2024-09-23 12:35:48.131521"
+        },
+        {
+            "id": 24,
+            "object_id": "4",
+            "object_repr": "alexei_petrov",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]",
+            "content_type_id": 4,
+            "user_id": 1,
+            "action_time": "2024-09-24 07:36:52.824127"
+        },
+        {
+            "id": 25,
+            "object_id": "4",
+            "object_repr": "alexei_petrov",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]",
+            "content_type_id": 4,
+            "user_id": 1,
+            "action_time": "2024-09-24 08:29:03.076721"
+        },
+        {
+            "id": 26,
+            "object_id": "3",
+            "object_repr": "authors",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]",
+            "content_type_id": 3,
+            "user_id": 1,
+            "action_time": "2024-09-24 08:39:28.149569"
+        },
+        {
+            "id": 27,
+            "object_id": "1",
+            "object_repr": "basic",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]",
+            "content_type_id": 3,
+            "user_id": 1,
+            "action_time": "2024-09-24 08:39:57.791510"
+        },
+        {
+            "id": 28,
+            "object_id": "2",
+            "object_repr": "premium",
+            "action_flag": 2,
+            "change_message": "[]",
+            "content_type_id": 3,
+            "user_id": 1,
+            "action_time": "2024-09-24 08:40:09.337914"
+        },
+        {
+            "id": 29,
+            "object_id": "4",
+            "object_repr": "alexei_petrov",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]",
+            "content_type_id": 4,
+            "user_id": 1,
+            "action_time": "2024-09-24 11:02:04.200650"
+        },
+        {
+            "id": 30,
+            "object_id": "1",
+            "object_repr": "127.0.0.1",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Domain name\"]}}]",
+            "content_type_id": 12,
+            "user_id": 1,
+            "action_time": "2024-09-30 15:51:49.548987"
+        },
+        {
+            "id": 31,
+            "object_id": "2",
+            "object_repr": "premium",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]",
+            "content_type_id": 3,
+            "user_id": 1,
+            "action_time": "2024-09-30 16:43:55.985507"
+        },
+        {
+            "id": 32,
+            "object_id": "2",
+            "object_repr": "vasili_kuznetsov",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]",
+            "content_type_id": 4,
+            "user_id": 1,
+            "action_time": "2024-10-01 08:12:43.334538"
+        },
+        {
+            "id": 33,
+            "object_id": "11",
+            "object_repr": "svetlana_morozova",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]",
+            "content_type_id": 4,
+            "user_id": 1,
+            "action_time": "2024-10-01 08:12:53.151403"
+        },
+        {
+            "id": 34,
+            "object_id": "21",
+            "object_repr": "rostislavshmiglyuk",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]",
+            "content_type_id": 4,
+            "user_id": 1,
+            "action_time": "2024-10-01 08:13:00.586914"
+        },
+        {
+            "id": 35,
+            "object_id": "10",
+            "object_repr": "olga_popova",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]",
+            "content_type_id": 4,
+            "user_id": 1,
+            "action_time": "2024-10-01 08:13:10.044041"
+        },
+        {
+            "id": 36,
+            "object_id": "5",
+            "object_repr": "mihail_smitnov",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]",
+            "content_type_id": 4,
+            "user_id": 1,
+            "action_time": "2024-10-01 08:13:18.563901"
+        },
+        {
+            "id": 37,
+            "object_id": "8",
+            "object_repr": "maria_novikova",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]",
+            "content_type_id": 4,
+            "user_id": 1,
+            "action_time": "2024-10-01 08:13:27.353500"
+        },
+        {
+            "id": 38,
+            "object_id": "20",
+            "object_repr": "kostea_stratan",
+            "action_flag": 2,
+            "change_message": "[]",
+            "content_type_id": 4,
+            "user_id": 1,
+            "action_time": "2024-10-01 08:13:35.517682"
+        },
+        {
+            "id": 39,
+            "object_id": "21",
+            "object_repr": "rostislavshmiglyuk",
+            "action_flag": 3,
+            "change_message": "",
+            "content_type_id": 4,
+            "user_id": 1,
+            "action_time": "2024-10-01 13:10:49.678679"
+        },
+        {
+            "id": 40,
+            "object_id": "20",
+            "object_repr": "kostea_stratan",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Email address\"]}}]",
+            "content_type_id": 4,
+            "user_id": 1,
+            "action_time": "2024-10-01 15:51:51.404426"
+        },
+        {
+            "id": 41,
+            "object_id": "23",
+            "object_repr": "veronica_varzari",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]",
+            "content_type_id": 4,
+            "user_id": 1,
+            "action_time": "2024-10-02 15:53:58.861984"
+        },
+        {
+            "id": 42,
+            "object_id": "24",
+            "object_repr": "kon_bran",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Username\", \"First name\", \"Last name\"]}}]",
+            "content_type_id": 4,
+            "user_id": 1,
+            "action_time": "2024-10-02 15:59:06.861719"
+        },
+        {
+            "id": 43,
+            "object_id": "24",
+            "object_repr": "kon_bran",
+            "action_flag": 2,
+            "change_message": "[]",
+            "content_type_id": 4,
+            "user_id": 1,
+            "action_time": "2024-10-02 16:00:30.458788"
+        },
+        {
+            "id": 44,
+            "object_id": "24",
+            "object_repr": "kon_bran",
+            "action_flag": 3,
+            "change_message": "",
+            "content_type_id": 4,
+            "user_id": 1,
+            "action_time": "2024-10-02 16:01:06.480882"
+        },
+        {
+            "id": 45,
+            "object_id": "1",
+            "object_repr": "127.0.0.1:8000",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Domain name\"]}}]",
+            "content_type_id": 12,
+            "user_id": 1,
+            "action_time": "2024-10-03 12:54:51.291026"
+        },
+        {
+            "id": 46,
+            "object_id": "3",
+            "object_repr": "ivan_ivanov",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]",
+            "content_type_id": 4,
+            "user_id": 1,
+            "action_time": "2024-10-04 08:16:56.322272"
+        }
+    ],
+    "django_content_type": [
+        {
+            "id": 1,
+            "app_label": "admin",
+            "model": "logentry"
+        },
+        {
+            "id": 2,
+            "app_label": "auth",
+            "model": "permission"
+        },
+        {
+            "id": 3,
+            "app_label": "auth",
+            "model": "group"
+        },
+        {
+            "id": 4,
+            "app_label": "auth",
+            "model": "user"
+        },
+        {
+            "id": 5,
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        },
+        {
+            "id": 6,
+            "app_label": "sessions",
+            "model": "session"
+        },
+        {
+            "id": 7,
+            "app_label": "news",
+            "model": "category"
+        },
+        {
+            "id": 8,
+            "app_label": "news",
+            "model": "rating"
+        },
+        {
+            "id": 9,
+            "app_label": "news",
+            "model": "userprofile"
+        },
+        {
+            "id": 10,
+            "app_label": "news",
+            "model": "profile"
+        },
+        {
+            "id": 11,
+            "app_label": "news",
+            "model": "article"
+        },
+        {
+            "id": 12,
+            "app_label": "sites",
+            "model": "site"
+        },
+        {
+            "id": 13,
+            "app_label": "account",
+            "model": "emailaddress"
+        },
+        {
+            "id": 14,
+            "app_label": "account",
+            "model": "emailconfirmation"
+        },
+        {
+            "id": 15,
+            "app_label": "socialaccount",
+            "model": "socialaccount"
+        },
+        {
+            "id": 16,
+            "app_label": "socialaccount",
+            "model": "socialapp"
+        },
+        {
+            "id": 17,
+            "app_label": "socialaccount",
+            "model": "socialtoken"
+        },
+        {
+            "id": 18,
+            "app_label": "django_apscheduler",
+            "model": "djangojob"
+        },
+        {
+            "id": 19,
+            "app_label": "django_apscheduler",
+            "model": "djangojobexecution"
+        },
+        {
+            "id": 20,
+            "app_label": "django_celery_beat",
+            "model": "crontabschedule"
+        },
+        {
+            "id": 21,
+            "app_label": "django_celery_beat",
+            "model": "intervalschedule"
+        },
+        {
+            "id": 22,
+            "app_label": "django_celery_beat",
+            "model": "periodictask"
+        },
+        {
+            "id": 23,
+            "app_label": "django_celery_beat",
+            "model": "periodictasks"
+        },
+        {
+            "id": 24,
+            "app_label": "django_celery_beat",
+            "model": "solarschedule"
+        },
+        {
+            "id": 25,
+            "app_label": "django_celery_beat",
+            "model": "clockedschedule"
+        },
+        {
+            "id": 26,
+            "app_label": "django_celery_results",
+            "model": "taskresult"
+        },
+        {
+            "id": 27,
+            "app_label": "django_celery_results",
+            "model": "chordcounter"
+        },
+        {
+            "id": 28,
+            "app_label": "django_celery_results",
+            "model": "groupresult"
+        },
+        {
+            "id": 29,
+            "app_label": "news",
+            "model": "news"
+        }
+    ],
+    "auth_permission": [
+        {
+            "id": 1,
+            "content_type_id": 1,
+            "codename": "add_logentry",
+            "name": "Can add log entry"
+        },
+        {
+            "id": 2,
+            "content_type_id": 1,
+            "codename": "change_logentry",
+            "name": "Can change log entry"
+        },
+        {
+            "id": 3,
+            "content_type_id": 1,
+            "codename": "delete_logentry",
+            "name": "Can delete log entry"
+        },
+        {
+            "id": 4,
+            "content_type_id": 1,
+            "codename": "view_logentry",
+            "name": "Can view log entry"
+        },
+        {
+            "id": 5,
+            "content_type_id": 2,
+            "codename": "add_permission",
+            "name": "Can add permission"
+        },
+        {
+            "id": 6,
+            "content_type_id": 2,
+            "codename": "change_permission",
+            "name": "Can change permission"
+        },
+        {
+            "id": 7,
+            "content_type_id": 2,
+            "codename": "delete_permission",
+            "name": "Can delete permission"
+        },
+        {
+            "id": 8,
+            "content_type_id": 2,
+            "codename": "view_permission",
+            "name": "Can view permission"
+        },
+        {
+            "id": 9,
+            "content_type_id": 3,
+            "codename": "add_group",
+            "name": "Can add group"
+        },
+        {
+            "id": 10,
+            "content_type_id": 3,
+            "codename": "change_group",
+            "name": "Can change group"
+        },
+        {
+            "id": 11,
+            "content_type_id": 3,
+            "codename": "delete_group",
+            "name": "Can delete group"
+        },
+        {
+            "id": 12,
+            "content_type_id": 3,
+            "codename": "view_group",
+            "name": "Can view group"
+        },
+        {
+            "id": 13,
+            "content_type_id": 4,
+            "codename": "add_user",
+            "name": "Can add user"
+        },
+        {
+            "id": 14,
+            "content_type_id": 4,
+            "codename": "change_user",
+            "name": "Can change user"
+        },
+        {
+            "id": 15,
+            "content_type_id": 4,
+            "codename": "delete_user",
+            "name": "Can delete user"
+        },
+        {
+            "id": 16,
+            "content_type_id": 4,
+            "codename": "view_user",
+            "name": "Can view user"
+        },
+        {
+            "id": 17,
+            "content_type_id": 5,
+            "codename": "add_contenttype",
+            "name": "Can add content type"
+        },
+        {
+            "id": 18,
+            "content_type_id": 5,
+            "codename": "change_contenttype",
+            "name": "Can change content type"
+        },
+        {
+            "id": 19,
+            "content_type_id": 5,
+            "codename": "delete_contenttype",
+            "name": "Can delete content type"
+        },
+        {
+            "id": 20,
+            "content_type_id": 5,
+            "codename": "view_contenttype",
+            "name": "Can view content type"
+        },
+        {
+            "id": 21,
+            "content_type_id": 6,
+            "codename": "add_session",
+            "name": "Can add session"
+        },
+        {
+            "id": 22,
+            "content_type_id": 6,
+            "codename": "change_session",
+            "name": "Can change session"
+        },
+        {
+            "id": 23,
+            "content_type_id": 6,
+            "codename": "delete_session",
+            "name": "Can delete session"
+        },
+        {
+            "id": 24,
+            "content_type_id": 6,
+            "codename": "view_session",
+            "name": "Can view session"
+        },
+        {
+            "id": 25,
+            "content_type_id": 7,
+            "codename": "add_category",
+            "name": "Can add category"
+        },
+        {
+            "id": 26,
+            "content_type_id": 7,
+            "codename": "change_category",
+            "name": "Can change category"
+        },
+        {
+            "id": 27,
+            "content_type_id": 7,
+            "codename": "delete_category",
+            "name": "Can delete category"
+        },
+        {
+            "id": 28,
+            "content_type_id": 7,
+            "codename": "view_category",
+            "name": "Can view category"
+        },
+        {
+            "id": 29,
+            "content_type_id": 8,
+            "codename": "add_rating",
+            "name": "Can add rating"
+        },
+        {
+            "id": 30,
+            "content_type_id": 8,
+            "codename": "change_rating",
+            "name": "Can change rating"
+        },
+        {
+            "id": 31,
+            "content_type_id": 8,
+            "codename": "delete_rating",
+            "name": "Can delete rating"
+        },
+        {
+            "id": 32,
+            "content_type_id": 8,
+            "codename": "view_rating",
+            "name": "Can view rating"
+        },
+        {
+            "id": 33,
+            "content_type_id": 9,
+            "codename": "add_userprofile",
+            "name": "Can add user profile"
+        },
+        {
+            "id": 34,
+            "content_type_id": 9,
+            "codename": "change_userprofile",
+            "name": "Can change user profile"
+        },
+        {
+            "id": 35,
+            "content_type_id": 9,
+            "codename": "delete_userprofile",
+            "name": "Can delete user profile"
+        },
+        {
+            "id": 36,
+            "content_type_id": 9,
+            "codename": "view_userprofile",
+            "name": "Can view user profile"
+        },
+        {
+            "id": 37,
+            "content_type_id": 10,
+            "codename": "add_profile",
+            "name": "Can add profile"
+        },
+        {
+            "id": 38,
+            "content_type_id": 10,
+            "codename": "change_profile",
+            "name": "Can change profile"
+        },
+        {
+            "id": 39,
+            "content_type_id": 10,
+            "codename": "delete_profile",
+            "name": "Can delete profile"
+        },
+        {
+            "id": 40,
+            "content_type_id": 10,
+            "codename": "view_profile",
+            "name": "Can view profile"
+        },
+        {
+            "id": 41,
+            "content_type_id": 11,
+            "codename": "add_article",
+            "name": "Can add article"
+        },
+        {
+            "id": 42,
+            "content_type_id": 11,
+            "codename": "change_article",
+            "name": "Can change article"
+        },
+        {
+            "id": 43,
+            "content_type_id": 11,
+            "codename": "delete_article",
+            "name": "Can delete article"
+        },
+        {
+            "id": 44,
+            "content_type_id": 11,
+            "codename": "view_article",
+            "name": "Can view article"
+        },
+        {
+            "id": 45,
+            "content_type_id": 12,
+            "codename": "add_site",
+            "name": "Can add site"
+        },
+        {
+            "id": 46,
+            "content_type_id": 12,
+            "codename": "change_site",
+            "name": "Can change site"
+        },
+        {
+            "id": 47,
+            "content_type_id": 12,
+            "codename": "delete_site",
+            "name": "Can delete site"
+        },
+        {
+            "id": 48,
+            "content_type_id": 12,
+            "codename": "view_site",
+            "name": "Can view site"
+        },
+        {
+            "id": 49,
+            "content_type_id": 13,
+            "codename": "add_emailaddress",
+            "name": "Can add email address"
+        },
+        {
+            "id": 50,
+            "content_type_id": 13,
+            "codename": "change_emailaddress",
+            "name": "Can change email address"
+        },
+        {
+            "id": 51,
+            "content_type_id": 13,
+            "codename": "delete_emailaddress",
+            "name": "Can delete email address"
+        },
+        {
+            "id": 52,
+            "content_type_id": 13,
+            "codename": "view_emailaddress",
+            "name": "Can view email address"
+        },
+        {
+            "id": 53,
+            "content_type_id": 14,
+            "codename": "add_emailconfirmation",
+            "name": "Can add email confirmation"
+        },
+        {
+            "id": 54,
+            "content_type_id": 14,
+            "codename": "change_emailconfirmation",
+            "name": "Can change email confirmation"
+        },
+        {
+            "id": 55,
+            "content_type_id": 14,
+            "codename": "delete_emailconfirmation",
+            "name": "Can delete email confirmation"
+        },
+        {
+            "id": 56,
+            "content_type_id": 14,
+            "codename": "view_emailconfirmation",
+            "name": "Can view email confirmation"
+        },
+        {
+            "id": 57,
+            "content_type_id": 15,
+            "codename": "add_socialaccount",
+            "name": "Can add social account"
+        },
+        {
+            "id": 58,
+            "content_type_id": 15,
+            "codename": "change_socialaccount",
+            "name": "Can change social account"
+        },
+        {
+            "id": 59,
+            "content_type_id": 15,
+            "codename": "delete_socialaccount",
+            "name": "Can delete social account"
+        },
+        {
+            "id": 60,
+            "content_type_id": 15,
+            "codename": "view_socialaccount",
+            "name": "Can view social account"
+        },
+        {
+            "id": 61,
+            "content_type_id": 16,
+            "codename": "add_socialapp",
+            "name": "Can add social application"
+        },
+        {
+            "id": 62,
+            "content_type_id": 16,
+            "codename": "change_socialapp",
+            "name": "Can change social application"
+        },
+        {
+            "id": 63,
+            "content_type_id": 16,
+            "codename": "delete_socialapp",
+            "name": "Can delete social application"
+        },
+        {
+            "id": 64,
+            "content_type_id": 16,
+            "codename": "view_socialapp",
+            "name": "Can view social application"
+        },
+        {
+            "id": 65,
+            "content_type_id": 17,
+            "codename": "add_socialtoken",
+            "name": "Can add social application token"
+        },
+        {
+            "id": 66,
+            "content_type_id": 17,
+            "codename": "change_socialtoken",
+            "name": "Can change social application token"
+        },
+        {
+            "id": 67,
+            "content_type_id": 17,
+            "codename": "delete_socialtoken",
+            "name": "Can delete social application token"
+        },
+        {
+            "id": 68,
+            "content_type_id": 17,
+            "codename": "view_socialtoken",
+            "name": "Can view social application token"
+        },
+        {
+            "id": 69,
+            "content_type_id": 18,
+            "codename": "add_djangojob",
+            "name": "Can add django job"
+        },
+        {
+            "id": 70,
+            "content_type_id": 18,
+            "codename": "change_djangojob",
+            "name": "Can change django job"
+        },
+        {
+            "id": 71,
+            "content_type_id": 18,
+            "codename": "delete_djangojob",
+            "name": "Can delete django job"
+        },
+        {
+            "id": 72,
+            "content_type_id": 18,
+            "codename": "view_djangojob",
+            "name": "Can view django job"
+        },
+        {
+            "id": 73,
+            "content_type_id": 19,
+            "codename": "add_djangojobexecution",
+            "name": "Can add django job execution"
+        },
+        {
+            "id": 74,
+            "content_type_id": 19,
+            "codename": "change_djangojobexecution",
+            "name": "Can change django job execution"
+        },
+        {
+            "id": 75,
+            "content_type_id": 19,
+            "codename": "delete_djangojobexecution",
+            "name": "Can delete django job execution"
+        },
+        {
+            "id": 76,
+            "content_type_id": 19,
+            "codename": "view_djangojobexecution",
+            "name": "Can view django job execution"
+        },
+        {
+            "id": 77,
+            "content_type_id": 20,
+            "codename": "add_crontabschedule",
+            "name": "Can add crontab"
+        },
+        {
+            "id": 78,
+            "content_type_id": 20,
+            "codename": "change_crontabschedule",
+            "name": "Can change crontab"
+        },
+        {
+            "id": 79,
+            "content_type_id": 20,
+            "codename": "delete_crontabschedule",
+            "name": "Can delete crontab"
+        },
+        {
+            "id": 80,
+            "content_type_id": 20,
+            "codename": "view_crontabschedule",
+            "name": "Can view crontab"
+        },
+        {
+            "id": 81,
+            "content_type_id": 21,
+            "codename": "add_intervalschedule",
+            "name": "Can add interval"
+        },
+        {
+            "id": 82,
+            "content_type_id": 21,
+            "codename": "change_intervalschedule",
+            "name": "Can change interval"
+        },
+        {
+            "id": 83,
+            "content_type_id": 21,
+            "codename": "delete_intervalschedule",
+            "name": "Can delete interval"
+        },
+        {
+            "id": 84,
+            "content_type_id": 21,
+            "codename": "view_intervalschedule",
+            "name": "Can view interval"
+        },
+        {
+            "id": 85,
+            "content_type_id": 22,
+            "codename": "add_periodictask",
+            "name": "Can add periodic task"
+        },
+        {
+            "id": 86,
+            "content_type_id": 22,
+            "codename": "change_periodictask",
+            "name": "Can change periodic task"
+        },
+        {
+            "id": 87,
+            "content_type_id": 22,
+            "codename": "delete_periodictask",
+            "name": "Can delete periodic task"
+        },
+        {
+            "id": 88,
+            "content_type_id": 22,
+            "codename": "view_periodictask",
+            "name": "Can view periodic task"
+        },
+        {
+            "id": 89,
+            "content_type_id": 23,
+            "codename": "add_periodictasks",
+            "name": "Can add periodic task track"
+        },
+        {
+            "id": 90,
+            "content_type_id": 23,
+            "codename": "change_periodictasks",
+            "name": "Can change periodic task track"
+        },
+        {
+            "id": 91,
+            "content_type_id": 23,
+            "codename": "delete_periodictasks",
+            "name": "Can delete periodic task track"
+        },
+        {
+            "id": 92,
+            "content_type_id": 23,
+            "codename": "view_periodictasks",
+            "name": "Can view periodic task track"
+        },
+        {
+            "id": 93,
+            "content_type_id": 24,
+            "codename": "add_solarschedule",
+            "name": "Can add solar event"
+        },
+        {
+            "id": 94,
+            "content_type_id": 24,
+            "codename": "change_solarschedule",
+            "name": "Can change solar event"
+        },
+        {
+            "id": 95,
+            "content_type_id": 24,
+            "codename": "delete_solarschedule",
+            "name": "Can delete solar event"
+        },
+        {
+            "id": 96,
+            "content_type_id": 24,
+            "codename": "view_solarschedule",
+            "name": "Can view solar event"
+        },
+        {
+            "id": 97,
+            "content_type_id": 25,
+            "codename": "add_clockedschedule",
+            "name": "Can add clocked"
+        },
+        {
+            "id": 98,
+            "content_type_id": 25,
+            "codename": "change_clockedschedule",
+            "name": "Can change clocked"
+        },
+        {
+            "id": 99,
+            "content_type_id": 25,
+            "codename": "delete_clockedschedule",
+            "name": "Can delete clocked"
+        },
+        {
+            "id": 100,
+            "content_type_id": 25,
+            "codename": "view_clockedschedule",
+            "name": "Can view clocked"
+        },
+        {
+            "id": 101,
+            "content_type_id": 26,
+            "codename": "add_taskresult",
+            "name": "Can add task result"
+        },
+        {
+            "id": 102,
+            "content_type_id": 26,
+            "codename": "change_taskresult",
+            "name": "Can change task result"
+        },
+        {
+            "id": 103,
+            "content_type_id": 26,
+            "codename": "delete_taskresult",
+            "name": "Can delete task result"
+        },
+        {
+            "id": 104,
+            "content_type_id": 26,
+            "codename": "view_taskresult",
+            "name": "Can view task result"
+        },
+        {
+            "id": 105,
+            "content_type_id": 27,
+            "codename": "add_chordcounter",
+            "name": "Can add chord counter"
+        },
+        {
+            "id": 106,
+            "content_type_id": 27,
+            "codename": "change_chordcounter",
+            "name": "Can change chord counter"
+        },
+        {
+            "id": 107,
+            "content_type_id": 27,
+            "codename": "delete_chordcounter",
+            "name": "Can delete chord counter"
+        },
+        {
+            "id": 108,
+            "content_type_id": 27,
+            "codename": "view_chordcounter",
+            "name": "Can view chord counter"
+        },
+        {
+            "id": 109,
+            "content_type_id": 28,
+            "codename": "add_groupresult",
+            "name": "Can add group result"
+        },
+        {
+            "id": 110,
+            "content_type_id": 28,
+            "codename": "change_groupresult",
+            "name": "Can change group result"
+        },
+        {
+            "id": 111,
+            "content_type_id": 28,
+            "codename": "delete_groupresult",
+            "name": "Can delete group result"
+        },
+        {
+            "id": 112,
+            "content_type_id": 28,
+            "codename": "view_groupresult",
+            "name": "Can view group result"
+        },
+        {
+            "id": 113,
+            "content_type_id": 29,
+            "codename": "add_news",
+            "name": "Can add news"
+        },
+        {
+            "id": 114,
+            "content_type_id": 29,
+            "codename": "change_news",
+            "name": "Can change news"
+        },
+        {
+            "id": 115,
+            "content_type_id": 29,
+            "codename": "delete_news",
+            "name": "Can delete news"
+        },
+        {
+            "id": 116,
+            "content_type_id": 29,
+            "codename": "view_news",
+            "name": "Can view news"
+        }
+    ],
+    "auth_group": [
+        {
+            "id": 1,
+            "name": "basic"
+        },
+        {
+            "id": 2,
+            "name": "premium"
+        },
+        {
+            "id": 3,
+            "name": "authors"
+        }
+    ],
+    "auth_user": [
+        {
+            "id": 1,
+            "password": "pbkdf2_sha256$600000$0gIrpCMhZCPPzwBSaNbctU$C72rAnQuu/F9pXfLWTbBn9p4EEik7M9GcJkex6DeEKo=",
+            "last_login": "2024-10-04 08:41:57.316355",
+            "is_superuser": 1,
+            "username": "admin",
+            "last_name": "",
+            "email": "",
+            "is_staff": 1,
+            "is_active": 1,
+            "date_joined": "2024-09-19 15:52:21.673701",
+            "first_name": ""
+        },
+        {
+            "id": 2,
+            "password": "pbkdf2_sha256$600000$VXUnlIRODeooLSj4Rwz5gR$c82FVuSARiSbM1IoWa5DqSIEmD2cl4SkILwy+8dXMlw=",
+            "last_login": "2024-09-20 14:00:28",
+            "is_superuser": 0,
+            "username": "vasili_kuznetsov",
+            "last_name": "Кузнецов",
+            "email": "vasili_kuznetsov@ggmail.com",
+            "is_staff": 0,
+            "is_active": 1,
+            "date_joined": "2024-09-19 17:33:19",
+            "first_name": "Василий"
+        },
+        {
+            "id": 3,
+            "password": "pbkdf2_sha256$600000$D0wGKjtayeHrwWQotI8fUf$DfNsuF3gWi8n5/W75J2MmckoDNEXfWx7tie7gzdjw80=",
+            "last_login": "2024-10-04 08:17:23.639525",
+            "is_superuser": 0,
+            "username": "ivan_ivanov",
+            "last_name": "Иванов",
+            "email": "ivan_ivanov@ggmail.com",
+            "is_staff": 0,
+            "is_active": 1,
+            "date_joined": "2024-09-19 17:33:19",
+            "first_name": "Иван"
+        },
+        {
+            "id": 4,
+            "password": "pbkdf2_sha256$600000$Nr8ZdQoe1zjfx5BwBnxYL6$mwlZwXn5/kmvMu61s2+3rD4Xps8oQDa1F8QTTJWym8k=",
+            "last_login": "2024-10-03 15:43:56.532609",
+            "is_superuser": 0,
+            "username": "alexei_petrov",
+            "last_name": "Петров",
+            "email": "alexei_petrov@ggmail.com",
+            "is_staff": 0,
+            "is_active": 1,
+            "date_joined": "2024-09-19 17:33:19",
+            "first_name": "Алексей"
+        },
+        {
+            "id": 5,
+            "password": "pbkdf2_sha256$600000$N8yWmqIKxRSk9MbA0C9dIW$L3Y6CnFxdJpia/b53hTwze3/D1UvRQO6ppyM6DcMuR4=",
+            "last_login": null,
+            "is_superuser": 0,
+            "username": "mihail_smitnov",
+            "last_name": "Смирнов",
+            "email": "mihail_smitnov@ggmail.com",
+            "is_staff": 0,
+            "is_active": 1,
+            "date_joined": "2024-09-19 17:33:19",
+            "first_name": "Михаил"
+        },
+        {
+            "id": 6,
+            "password": "pbkdf2_sha256$600000$qZBThLrIU888Utiw8d05N2$vCVnkaad9pVmA8qB1TWt5Np+h7jDhwzaTInXnYMSaZ4=",
+            "last_login": "2024-10-04 08:42:26.560395",
+            "is_superuser": 0,
+            "username": "dmitri_kovalev",
+            "last_name": "Ковалёв",
+            "email": "dmitri_kovalev@ggmail.com",
+            "is_staff": 0,
+            "is_active": 1,
+            "date_joined": "2024-09-19 17:33:19",
+            "first_name": "Дмитрий"
+        },
+        {
+            "id": 7,
+            "password": "pbkdf2_sha256$600000$PbZ7YVpHP2rpO6aCMY2TYA$sTwTzLLeVSuQTbh9/PF2UvwjkOC7XHrLtJzmzaMI8mg=",
+            "last_login": null,
+            "is_superuser": 0,
+            "username": "anna_sokolova",
+            "last_name": "Соколова",
+            "email": "anna_sokolova@ggmail.com",
+            "is_staff": 0,
+            "is_active": 1,
+            "date_joined": "2024-09-19 17:33:19",
+            "first_name": "Анна"
+        },
+        {
+            "id": 8,
+            "password": "pbkdf2_sha256$600000$YR7Il89OaVRN1x2fQprc0y$IHM02c3b4wVdm9pPNKvyr/CT5r6S4iLSi+kx4HWVN/I=",
+            "last_login": null,
+            "is_superuser": 0,
+            "username": "maria_novikova",
+            "last_name": "Новикова",
+            "email": "maria_novikova@ggmail.com",
+            "is_staff": 0,
+            "is_active": 1,
+            "date_joined": "2024-09-19 17:33:19",
+            "first_name": "Мария"
+        },
+        {
+            "id": 9,
+            "password": "pbkdf2_sha256$600000$An0RE58N83mJbVfplWCWhH$jJVAOXiELiOAfhv9VC03R00qsl48eDSAZcVwfzXReNU=",
+            "last_login": null,
+            "is_superuser": 0,
+            "username": "elena_sergeevna",
+            "last_name": "Сергеевна",
+            "email": "elena_sergeevna@ggmail.com",
+            "is_staff": 0,
+            "is_active": 1,
+            "date_joined": "2024-09-19 17:33:19",
+            "first_name": "Елена"
+        },
+        {
+            "id": 10,
+            "password": "pbkdf2_sha256$600000$kLxxDagBIXbCZE87iYt97F$GlXJAEJVsLgdo1/4VYjUBLz8oieZXmAy9t/uZVGWHUc=",
+            "last_login": "2024-10-04 09:02:20.319324",
+            "is_superuser": 0,
+            "username": "olga_popova",
+            "last_name": "Попова",
+            "email": "olga_popova@ggmail.com",
+            "is_staff": 0,
+            "is_active": 1,
+            "date_joined": "2024-09-19 17:33:19",
+            "first_name": "Ольга"
+        },
+        {
+            "id": 11,
+            "password": "pbkdf2_sha256$600000$t6nYFVsnEu1ThJem3KmwSe$8E5XGmyKmScy05743qYAD2pDtD+jyjFj82dg+Ei3p9k=",
+            "last_login": "2024-10-03 15:27:36.396257",
+            "is_superuser": 0,
+            "username": "svetlana_morozova",
+            "last_name": "Морозова",
+            "email": "svetlana_morozova@ggmail.com",
+            "is_staff": 0,
+            "is_active": 1,
+            "date_joined": "2024-09-19 17:33:19",
+            "first_name": "Светлана"
+        },
+        {
+            "id": 17,
+            "password": "pbkdf2_sha256$600000$oGm7Z4MGwrssFO7zeuCVKV$KPSldvhvaKXbvIynjO9S6xasMxJPnUxPx71MaWuxK2I=",
+            "last_login": "2024-09-23 10:16:46.912393",
+            "is_superuser": 0,
+            "username": "asea_turta",
+            "last_name": "Turta",
+            "email": "asea_turta@ggmail.com",
+            "is_staff": 0,
+            "is_active": 1,
+            "date_joined": "2024-09-23 10:16:46.377689",
+            "first_name": "Asea"
+        },
+        {
+            "id": 20,
+            "password": "pbkdf2_sha256$600000$1UGJck8kaRFqnAUk0LpuJM$KA1QSw6ox9Dcgd4BI9ahQNUAJcVB6rLhTT2Ci6e0fD8=",
+            "last_login": "2024-10-07 08:05:56.117315",
+            "is_superuser": 0,
+            "username": "kostea_stratan",
+            "last_name": "Статан",
+            "email": "1977ro@gmail.com",
+            "is_staff": 0,
+            "is_active": 1,
+            "date_joined": "2024-09-30 15:11:03",
+            "first_name": "Костя"
+        },
+        {
+            "id": 22,
+            "password": "!O3wRUjs2xKfsuFTKadz49xjjK7C1SNOxGmela3Y2",
+            "last_login": "2024-10-01 13:11:54.986498",
+            "is_superuser": 0,
+            "username": "rostislavshmiglyuk",
+            "last_name": "Шмиглюк",
+            "email": "rostislavshmiglyuk@yandex.ru",
+            "is_staff": 0,
+            "is_active": 1,
+            "date_joined": "2024-10-01 13:11:54.523605",
+            "first_name": "Rostislav"
+        },
+        {
+            "id": 23,
+            "password": "pbkdf2_sha256$600000$2SIvoOsN9p7diLC1g3IrUB$hcjytpbCJwZUGyjWSawguX8U8MgDDkpQtuKQLuOBRmY=",
+            "last_login": "2024-10-02 15:54:56.184944",
+            "is_superuser": 0,
+            "username": "veronica_varzari",
+            "last_name": "Varzari",
+            "email": "veronica_varzari@ggmail.com",
+            "is_staff": 0,
+            "is_active": 1,
+            "date_joined": "2024-10-02 15:53:22",
+            "first_name": "Veronica"
+        },
+        {
+            "id": 25,
+            "password": "pbkdf2_sha256$600000$8tgDQG4syRVqUOAt7xo4gi$W/vM5KnbGengchhjLg8fk1pBpUIB2icZzghoCB/lGfk=",
+            "last_login": "2024-10-02 16:02:48.801090",
+            "is_superuser": 0,
+            "username": "kon_bran",
+            "last_name": "Brankush",
+            "email": "kon_bran@ggmail.con",
+            "is_staff": 0,
+            "is_active": 1,
+            "date_joined": "2024-10-02 16:02:14.028187",
+            "first_name": "Konstantin"
+        },
+        {
+            "id": 26,
+            "password": "pbkdf2_sha256$600000$MXVTgnREIIRvh1oTQxvROn$wmhoYEVaP70p7afGP5IO0cLy8lReUuIaDVvbMuDL1HU=",
+            "last_login": null,
+            "is_superuser": 0,
+            "username": "vasil_petr",
+            "last_name": "Petraru",
+            "email": "vasil_petr@ggmail.com",
+            "is_staff": 0,
+            "is_active": 0,
+            "date_joined": "2024-10-03 11:05:22.932488",
+            "first_name": "Vasili"
+        },
+        {
+            "id": 27,
+            "password": "pbkdf2_sha256$600000$5SDO8gTCh0XiB2MQg83lEd$R1ve5nBVgOPs3uB3anXE4G5UDNbScNVREYuMnoF7Pu0=",
+            "last_login": null,
+            "is_superuser": 0,
+            "username": "vasil_petr123",
+            "last_name": "Petraru",
+            "email": "vasil_petr@ggmail.com",
+            "is_staff": 0,
+            "is_active": 1,
+            "date_joined": "2024-10-03 11:08:43.567439",
+            "first_name": "Vasili"
+        },
+        {
+            "id": 28,
+            "password": "pbkdf2_sha256$600000$2l4BBAt5aqpGfDp5lhBATR$LRiwZtrrkms4XGR4N8yViKuWBJ9lGKTZs/qA0wxKoDQ=",
+            "last_login": null,
+            "is_superuser": 0,
+            "username": "trot_mud",
+            "last_name": "Mud",
+            "email": "trot_mud@ggmail.com",
+            "is_staff": 0,
+            "is_active": 0,
+            "date_joined": "2024-10-03 11:10:05.821938",
+            "first_name": "Trot"
+        },
+        {
+            "id": 29,
+            "password": "pbkdf2_sha256$600000$Pc5Cxc1ytH01c0AmkYLwNk$uzkbvLk2HK00c6JpjbdlubZOnMBjZAXctYvTWmjHuZ4=",
+            "last_login": null,
+            "is_superuser": 0,
+            "username": "lola_briks",
+            "last_name": "Briks",
+            "email": "lola_briks@ggmail.com",
+            "is_staff": 0,
+            "is_active": 0,
+            "date_joined": "2024-10-03 11:11:28.188920",
+            "first_name": "Lola"
+        },
+        {
+            "id": 30,
+            "password": "pbkdf2_sha256$600000$aIv4zyHtf9GJ81d3t4jhM7$WtfXpg8MpxjmoW8PfKLIHcdwD/fIb5MSa1gZCHNGrSI=",
+            "last_login": null,
+            "is_superuser": 0,
+            "username": "ver_tver",
+            "last_name": "Tverskaia",
+            "email": "ver_tver@ggmail.com",
+            "is_staff": 0,
+            "is_active": 0,
+            "date_joined": "2024-10-03 11:13:20.810882",
+            "first_name": "Vera"
+        }
+    ],
+    "news_rating": [
+        {
+            "id": 1,
+            "value": 1
+        },
+        {
+            "id": 2,
+            "value": 2
+        },
+        {
+            "id": 3,
+            "value": 3
+        },
+        {
+            "id": 4,
+            "value": 4
+        },
+        {
+            "id": 5,
+            "value": 5
+        }
+    ],
+    "news_profile": [
+        {
+            "id": 1,
+            "user_id": 1
+        },
+        {
+            "id": 2,
+            "user_id": 2
+        },
+        {
+            "id": 3,
+            "user_id": 3
+        },
+        {
+            "id": 4,
+            "user_id": 4
+        },
+        {
+            "id": 5,
+            "user_id": 5
+        },
+        {
+            "id": 6,
+            "user_id": 6
+        },
+        {
+            "id": 7,
+            "user_id": 7
+        },
+        {
+            "id": 8,
+            "user_id": 8
+        },
+        {
+            "id": 9,
+            "user_id": 9
+        },
+        {
+            "id": 10,
+            "user_id": 10
+        },
+        {
+            "id": 11,
+            "user_id": 11
+        },
+        {
+            "id": 17,
+            "user_id": 17
+        },
+        {
+            "id": 20,
+            "user_id": 20
+        },
+        {
+            "id": 22,
+            "user_id": 22
+        },
+        {
+            "id": 23,
+            "user_id": 23
+        },
+        {
+            "id": 25,
+            "user_id": 25
+        },
+        {
+            "id": 26,
+            "user_id": 26
+        },
+        {
+            "id": 27,
+            "user_id": 27
+        },
+        {
+            "id": 28,
+            "user_id": 28
+        },
+        {
+            "id": 29,
+            "user_id": 29
+        },
+        {
+            "id": 30,
+            "user_id": 30
+        }
+    ],
+    "django_session": [
+        {
+            "session_key": "gssxya0bgv6uz9kmx739nt0r8zxqm479",
+            "session_data": ".eJxVjMsOwiAQRf-FtSEM8qpL935DMzCDVA0kpV0Z_92QdKHbe865bzHjvpV577zOC4mLAHH63SKmJ9cB6IH13mRqdVuXKIciD9rlrRG_rof7d1Cwl1GzZR2MZxuy89mZRMYpDVM4Jw86psxT9FZ5tA6RnGEIKgK5qMGQBvH5AuCaN6Q:1srJSf:ck969Djl3gPxt1IZzACjO9-htQjrVLUGhoYY9bLXzec",
+            "expire_date": "2024-10-03 15:52:53.132554"
+        },
+        {
+            "session_key": "xp7p4jjh0bcqk1dnjnp8l09ke0jnwrip",
+            "session_data": ".eJxVjMsOwiAQRf-FtSEIlIdL9_0GMswMUjU0Ke3K-O_apAvd3nPOfYkE21rT1nlJE4mL0OL0u2XAB7cd0B3abZY4t3WZstwVedAux5n4eT3cv4MKvX7rYj2ShsH6MBjyFoJzJasCrKzKscQQs9FknPXRG1POOmQARMWaAbUV7w_h1jgG:1sreBQ:kM9t6V0VPWtjbfCJM_rnoCFMZoLPN_YTn0DWy8cnQvw",
+            "expire_date": "2024-10-04 14:00:28.989308"
+        },
+        {
+            "session_key": "zfof1j89nm8z3koo278qev8nyf3w03p1",
+            "session_data": ".eJxVjMsOwiAQRf-FtSEM8qpL935DMzCDVA0kpV0Z_92QdKHbe865bzHjvpV577zOC4mLAHH63SKmJ9cB6IH13mRqdVuXKIciD9rlrRG_rof7d1Cwl1GzZR2MZxuy89mZRMYpDVM4Jw86psxT9FZ5tA6RnGEIKgK5qMGQBvH5AuCaN6Q:1ssf6i:aEZGtJsH1r4LtRUtAqD9HKjypcNThAM-57W3kyD5MVo",
+            "expire_date": "2024-10-07 09:11:48.429007"
+        },
+        {
+            "session_key": "9r3dxwey0izer7p2ox6l7rzl594ip08v",
+            "session_data": ".eJxVjMsOwiAQRf-FtSEM8qpL935DMzCDVA0kpV0Z_92QdKHbe865bzHjvpV577zOC4mLAHH63SKmJ9cB6IH13mRqdVuXKIciD9rlrRG_rof7d1Cwl1GzZR2MZxuy89mZRMYpDVM4Jw86psxT9FZ5tA6RnGEIKgK5qMGQBvH5AuCaN6Q:1ssg84:DmUdCmNYFBr0w9ydZIK9bNwL43n1_9RcNzp7iCLg4kU",
+            "expire_date": "2024-10-07 10:17:16.228562"
+        },
+        {
+            "session_key": "dus3iwry6ks8xdjqf9ycz1huikp86r85",
+            "session_data": ".eJxVjMsOwiAQRf-FtSEM8qpL935DMzCDVA0kpV0Z_92QdKHbe865bzHjvpV577zOC4mLAHH63SKmJ9cB6IH13mRqdVuXKIciD9rlrRG_rof7d1Cwl1GzZR2MZxuy89mZRMYpDVM4Jw86psxT9FZ5tA6RnGEIKgK5qMGQBvH5AuCaN6Q:1ssgXG:wk-LMmq9d_o_wLjXvjUWC4syHfWPzSLoNLitHAAIgVs",
+            "expire_date": "2024-10-07 10:43:18.790968"
+        },
+        {
+            "session_key": "g7iirogelal5xrwtdkr911cjrsbwlm74",
+            "session_data": ".eJxVjMsOwiAQRf-FtSEM8qpL935DMzCDVA0kpV0Z_92QdKHbe865bzHjvpV577zOC4mLAHH63SKmJ9cB6IH13mRqdVuXKIciD9rlrRG_rof7d1Cwl1GzZR2MZxuy89mZRMYpDVM4Jw86psxT9FZ5tA6RnGEIKgK5qMGQBvH5AuCaN6Q:1ssgeN:w3SpEmdnjM9dm9K8xV-hAx0Iy2QU9x3zwqtGB_4XRyA",
+            "expire_date": "2024-10-07 10:50:39.518654"
+        },
+        {
+            "session_key": "noukm4v1bkuay9fxmgn99ab3bzrx9gls",
+            "session_data": ".eJxVjDsOwyAQRO9CHSHAsIaU6X0GtMsnOIlAMnYV5e6xJRdJN5r3Zt7M47YWv_W0-DmyK9Ps8tsRhmeqB4gPrPfGQ6vrMhM_FH7SzqcW0-t2un8HBXvZ1xKGbAwSEQqEhDRam1zYowigUWQFo6UMOdpg3ZCVVgai0RJlVM4B-3wBBq84Pg:1ssgup:M7IouGpNAOt4GU5i0LKe20DD1MES2DjkBmrTESIpUaw",
+            "expire_date": "2024-10-07 11:07:39.772585"
+        },
+        {
+            "session_key": "1nxrnfp20vd1z8tvgrcnims5tr8d8ib7",
+            "session_data": ".eJxVjMsOwiAQRf-FtSEM8qpL935DMzCDVA0kpV0Z_92QdKHbe865bzHjvpV577zOC4mLAHH63SKmJ9cB6IH13mRqdVuXKIciD9rlrRG_rof7d1Cwl1GzZR2MZxuy89mZRMYpDVM4Jw86psxT9FZ5tA6RnGEIKgK5qMGQBvH5AuCaN6Q:1ssgxZ:qwuuYzlKD1FcFihwGcmBSTXFpLsT-Hg3WcxWsce1zIs",
+            "expire_date": "2024-10-07 11:10:29.535927"
+        },
+        {
+            "session_key": "txdf4u568k753v9ys5utw65yvt1g4hqm",
+            "session_data": ".eJxVjDsOwyAQRO9CHSHAsIaU6X0GtMsnOIlAMnYV5e6xJRdJN5r3Zt7M47YWv_W0-DmyK9Ps8tsRhmeqB4gPrPfGQ6vrMhM_FH7SzqcW0-t2un8HBXvZ1xKGbAwSEQqEhDRam1zYowigUWQFo6UMOdpg3ZCVVgai0RJlVM4B-3wBBq84Pg:1sshGE:sEPKcf5sKlAZ04kKXc0fNWVikUZorTPdoSB6gORMuIg",
+            "expire_date": "2024-10-07 11:29:46.026264"
+        },
+        {
+            "session_key": "5468tu8pu2ar7891mi5lci5r9d5pvezh",
+            "session_data": ".eJxVjDsOwyAQRO9CHSHAsIaU6X0GtMsnOIlAMnYV5e6xJRdJN5r3Zt7M47YWv_W0-DmyK9Ps8tsRhmeqB4gPrPfGQ6vrMhM_FH7SzqcW0-t2un8HBXvZ1xKGbAwSEQqEhDRam1zYowigUWQFo6UMOdpg3ZCVVgai0RJlVM4B-3wBBq84Pg:1sshHZ:G6Sy1WwgGycCjjHJ3BtydGWgzS_b-AhNV1vdbDkuxHo",
+            "expire_date": "2024-10-07 11:31:09.100151"
+        },
+        {
+            "session_key": "hmw2l2cyz679ujdqmcmyqgmwuedzfsf4",
+            "session_data": ".eJxVjDsOwyAQRO9CHSHAsIaU6X0GtMsnOIlAMnYV5e6xJRdJN5r3Zt7M47YWv_W0-DmyK9Ps8tsRhmeqB4gPrPfGQ6vrMhM_FH7SzqcW0-t2un8HBXvZ1xKGbAwSEQqEhDRam1zYowigUWQFo6UMOdpg3ZCVVgai0RJlVM4B-3wBBq84Pg:1sshJ0:VlfyDhTVn4nrhKhn9Pv0zgCsP_HrDDWEXEVLHSlyoYw",
+            "expire_date": "2024-10-07 11:32:38.521598"
+        },
+        {
+            "session_key": "kj016scjrtxxe8boyzpnvo7ft7hetj96",
+            "session_data": ".eJxVjDsOwyAQRO9CHSHAsIaU6X0GtMsnOIlAMnYV5e6xJRdJN5r3Zt7M47YWv_W0-DmyK9Ps8tsRhmeqB4gPrPfGQ6vrMhM_FH7SzqcW0-t2un8HBXvZ1xKGbAwSEQqEhDRam1zYowigUWQFo6UMOdpg3ZCVVgai0RJlVM4B-3wBBq84Pg:1ssi7h:YUyAZqfZFJ0VM2bVE_wUlPx0v2c4iLIMM8nEf4kaYN0",
+            "expire_date": "2024-10-07 12:25:01.246927"
+        },
+        {
+            "session_key": "jxf5immuu733anwi0yx6sgbldtcbuakf",
+            "session_data": ".eJxVjDsOwyAQRO9CHSHAsIaU6X0GtMsnOIlAMnYV5e6xJRdJN5r3Zt7M47YWv_W0-DmyK9Ps8tsRhmeqB4gPrPfGQ6vrMhM_FH7SzqcW0-t2un8HBXvZ1xKGbAwSEQqEhDRam1zYowigUWQFo6UMOdpg3ZCVVgai0RJlVM4B-3wBBq84Pg:1ssiGZ:F6Yj7ZgUwxXb91IuJnCvLuQlaC188L6uKYqSXuUgJRg",
+            "expire_date": "2024-10-07 12:34:11.325992"
+        },
+        {
+            "session_key": "g49vpfsf9kfab8biwfr6ml1ysrfkiqai",
+            "session_data": ".eJxVjDsOwyAQRO9CHSHAsIaU6X0GtMsnOIlAMnYV5e6xJRdJN5r3Zt7M47YWv_W0-DmyK9Ps8tsRhmeqB4gPrPfGQ6vrMhM_FH7SzqcW0-t2un8HBXvZ1xKGbAwSEQqEhDRam1zYowigUWQFo6UMOdpg3ZCVVgai0RJlVM4B-3wBBq84Pg:1sskk1:DUj2zEp6cKbMnuJOwgIrVNZeBe7YQ5e21OvqCvn9h8A",
+            "expire_date": "2024-10-07 15:12:45.244953"
+        },
+        {
+            "session_key": "1gxfwxgzybrvvktrcl71p0mhu3pwhah1",
+            "session_data": ".eJxVjMsOwiAQRf-FtSEM8qpL935DMzCDVA0kpV0Z_92QdKHbe865bzHjvpV577zOC4mLAHH63SKmJ9cB6IH13mRqdVuXKIciD9rlrRG_rof7d1Cwl1GzZR2MZxuy89mZRMYpDVM4Jw86psxT9FZ5tA6RnGEIKgK5qMGQBvH5AuCaN6Q:1st0p8:OYnsR6Y6thmkucAmGjy0vRtQBzdBfMUvOtbeBNxTVlY",
+            "expire_date": "2024-10-08 08:23:06.812472"
+        },
+        {
+            "session_key": "jmp4bqqdk6t4xork388zxznvkkfpayit",
+            "session_data": ".eJxVjMsOwiAQRf-FtSEM8qpL935DMzCDVA0kpV0Z_92QdKHbe865bzHjvpV577zOC4mLAHH63SKmJ9cB6IH13mRqdVuXKIciD9rlrRG_rof7d1Cwl1GzZR2MZxuy89mZRMYpDVM4Jw86psxT9FZ5tA6RnGEIKgK5qMGQBvH5AuCaN6Q:1st0vg:7D2ZC_KTRjTooW0a0oO_-ilX58QBpWtZJ94qWGITBKI",
+            "expire_date": "2024-10-08 08:29:52.053326"
+        },
+        {
+            "session_key": "ciw01o6s7fw3a4o5t95fuzp102sewfkv",
+            "session_data": ".eJxVjMsOwiAQRf-FtSEM8qpL935DMzCDVA0kpV0Z_92QdKHbe865bzHjvpV577zOC4mLAHH63SKmJ9cB6IH13mRqdVuXKIciD9rlrRG_rof7d1Cwl1GzZR2MZxuy89mZRMYpDVM4Jw86psxT9FZ5tA6RnGEIKgK5qMGQBvH5AuCaN6Q:1st146:JXYwBBlsRWf8Jr8sgwBThEZrvN4hhcqOnhoWA1LhS54",
+            "expire_date": "2024-10-08 08:38:34.469686"
+        },
+        {
+            "session_key": "vnkxopo4g1n64axatckm27bpw4jo0vxg",
+            "session_data": ".eJxVjMsOwiAQRf-FtSEM8qpL935DMzCDVA0kpV0Z_92QdKHbe865bzHjvpV577zOC4mLAHH63SKmJ9cB6IH13mRqdVuXKIciD9rlrRG_rof7d1Cwl1GzZR2MZxuy89mZRMYpDVM4Jw86psxT9FZ5tA6RnGEIKgK5qMGQBvH5AuCaN6Q:1st3Ky:pwwUsAkXXyn8k-JaoageQ9FUv3fELR2-7g5SQftqbw0",
+            "expire_date": "2024-10-08 11:04:08.421326"
+        },
+        {
+            "session_key": "yppw4697uwmsyb6zocqa00mhtereq8cw",
+            "session_data": ".eJxVjMsOwiAQRf-FtSEM8qpL935DMzCDVA0kpV0Z_92QdKHbe865bzHjvpV577zOC4mLAHH63SKmJ9cB6IH13mRqdVuXKIciD9rlrRG_rof7d1Cwl1GzZR2MZxuy89mZRMYpDVM4Jw86psxT9FZ5tA6RnGEIKgK5qMGQBvH5AuCaN6Q:1st56i:W1QJcdLzky3sB6cMv4DnXAi3W4aaodKqoJPnSQyvbM8",
+            "expire_date": "2024-10-08 12:57:32.377819"
+        },
+        {
+            "session_key": "ota4z6nu4137ss3kq7xchaj4l9o854jc",
+            "session_data": ".eJxVjDsOwyAQRO9CHSHAsIaU6X0GtMsnOIlAMnYV5e6xJRdJN5r3Zt7M47YWv_W0-DmyK9Ps8tsRhmeqB4gPrPfGQ6vrMhM_FH7SzqcW0-t2un8HBXvZ1xKGbAwSEQqEhDRam1zYowigUWQFo6UMOdpg3ZCVVgai0RJlVM4B-3wBBq84Pg:1st5G4:6qenZNsj9X-XMhB0uIheVy-QSMkrLJluH_J_8h3Dtp8",
+            "expire_date": "2024-10-08 13:07:12.808050"
+        },
+        {
+            "session_key": "0uq0yqtkimpjjrum7kuf5cmgmyh5opt3",
+            "session_data": ".eJxVjDsOwyAQRO9CHSHAsIaU6X0GtMsnOIlAMnYV5e6xJRdJN5r3Zt7M47YWv_W0-DmyK9Ps8tsRhmeqB4gPrPfGQ6vrMhM_FH7SzqcW0-t2un8HBXvZ1xKGbAwSEQqEhDRam1zYowigUWQFo6UMOdpg3ZCVVgai0RJlVM4B-3wBBq84Pg:1st5VH:MNlvXXRBfFEEQTORZ7vLwV6_7vGvSfqljeYsBSr2rsQ",
+            "expire_date": "2024-10-08 13:22:55.297847"
+        },
+        {
+            "session_key": "930axl9qy76vgcf6p1ct180bor6zks4o",
+            "session_data": ".eJxVjEEOwiAQRe_C2hAKtFCX7nsGMswMUjWQlHZlvLtt0oVu_3vvv0WAbc1ha7yEmcRVaCUuv2MEfHI5CD2g3KvEWtZljvJQ5EmbnCrx63a6fwcZWt5rNNQN1iEkq8mNjrGPykIHkcAyazMm9qzIDT6h2U3uwYONhpL2jpL4fAEqfjku:1svI3D:LkDAwsqVxqOnl2YpwL5gqXGIC51Dgp3V_M31BCnm0t4",
+            "expire_date": "2024-10-14 15:11:03.768767"
+        },
+        {
+            "session_key": "ge0zmscev9370qpmd9vtotcf1ii5dtms",
+            "session_data": ".eJxVjstqhUAQRP-l1yLzfrhLfiME6Tu2KDHOxRlDgvjvGY1ZuGuq6lT1BimGEScMIa5zblPGTAmaba_gX8M1DzTnMWAe49x-Uh5iVzJvG_zd0NxboLAZGm6FtVwzrWuhlOJGV_Bc4tfY0VKQH5w7-i7ZdTwauNdc6QOA_b2Cc7VdEy3taQsON_GB4YPmw8FpOuT6Gq_PzGWn-uX2_OtF3aoGTEPp8V6p3ioRJOs5KnzwntnOe2mIC87IOBGcEGSsk0Ehk9JqJOmUY9prg7D_Akz7bOw:1svJbr:OcnUpGNZgmeOXTl8Ix69RrS0h_89rH3J9cSwNi6v-40",
+            "expire_date": "2024-10-14 16:50:55.292299"
+        },
+        {
+            "session_key": "rflzf7jahbr69kqb55eha3eoji89onlh",
+            "session_data": ".eJxVjMEOwiAQRP-FsyFAAcGjd7-BLLuLVA1NSnsy_rtt0oOeJpn3Zt4iwbrUtHae00jiIowSp98yAz657YQe0O6TxKkt85jlrsiDdnmbiF_Xw_07qNDrto5KB4rKB9IRXTlbzMENQFhAFyZvVGHrs8EtiJ2y7GAACFrZqB2y-HwBF2c4vw:1svfBI:ZuvIBYIpYSktVEkTlR9l1JYff2yuoBBNpoIkRNtEGHM",
+            "expire_date": "2024-10-15 15:52:56.833004"
+        },
+        {
+            "session_key": "bdhls64p3636rlududpmf0vaqrj6jrnq",
+            "session_data": ".eJxVjMEOwiAQRP-FsyFAAcGjd7-BLLuLVA1NSnsy_rtt0oOeJpn3Zt4iwbrUtHae00jiIowSp98yAz657YQe0O6TxKkt85jlrsiDdnmbiF_Xw_07qNDrto5KB4rKB9IRXTlbzMENQFhAFyZvVGHrs8EtiJ2y7GAACFrZqB2y-HwBF2c4vw:1svvV8:Edz8hxd9CQekMzN0QqEzYtArd_N6dnKvBhlLrPsMcgI",
+            "expire_date": "2024-10-16 09:18:30.479295"
+        },
+        {
+            "session_key": "ov1spu9lcqeyq3b71ke0azsnxuufy6zw",
+            "session_data": ".eJxVjDsOwyAQRO9CHSHA_DZlep8BwS4OTiKQjF1FuXtsyUVSjTTvzbxZiNtawtbzEmZiV6YMu_yWKeIz14PQI9Z749jqusyJHwo_aedjo_y6ne7fQYm97GsrBDpJ1mYtZBIIzqs9ncTstbEawTiaVMKBwFtAmoSLEA0OxiewiX2-66M3tQ:1sw1oO:Ff2857FE9x6RSw0ab7HGMDlZRtojLV04boERWttY1Xk",
+            "expire_date": "2024-10-16 16:02:48.815182"
+        },
+        {
+            "session_key": "nwc9pyw2kkagp3osz3op25l23ofpxvnt",
+            "session_data": ".eJxVTksOwiAQvQtrbQBhoC7dewYCM4OtmmJKGxfGu9uaLnT5_u8lQpynLsyVx9CTOAoldr9cinjjYRXoGodLabAM09inZrU0m1qbcyG-nzbvX0EXa7em2bL2xrH1GVwGg2RAatX6AzqlE2Zuk7PSRQsxEhhWXiZFkLQypL-vHrHWZxkpjFx5ClNZ1pZq5DRA3VvU0huzoEQ5e4kZJJjc6kwOJZN4fwAyaE1Z:1swLMm:99v3YIwGjFWvUPLDwfWwL0yK9tYgnaLKPrFk0ukBKTQ",
+            "expire_date": "2024-10-17 12:55:36.019419"
+        },
+        {
+            "session_key": "62vjtvz2yyghtndv6krzzkpqd5tehrd9",
+            "session_data": ".eJxVjMEOwiAQRP-FsyFAAcGjd7-BLLuLVA1NSnsy_rtt0oOeJpn3Zt4iwbrUtHae00jiIowSp98yAz657YQe0O6TxKkt85jlrsiDdnmbiF_Xw_07qNDrto5KB4rKB9IRXTlbzMENQFhAFyZvVGHrs8EtiJ2y7GAACFrZqB2y-HwBF2c4vw:1swO1u:kghHKgY1uZsc8Lfk6x4phDN_J1NXnld6UVnGFNtMhys",
+            "expire_date": "2024-10-17 15:46:14.396620"
+        },
+        {
+            "session_key": "3mi3iqim981bv6and9yy9urgq7uc4dm5",
+            "session_data": ".eJxVjMEOwiAQRP-FsyELQqEevfsNZJcFqRpISnsy_rtt0oNmbvPezFsEXJcS1p7mMLG4CAXi9FsSxmeqO-EH1nuTsdVlnkjuijxol7fG6XU93L-Dgr1sa4-GPecBsgJrnTVsCAcL5Gkcz55y9hHBGue1QuUAEFlvSVoRZqfE5wsCfzgf:1sweCa:Tw06d_-otB5Zmt_NkBfjB7-uPypelxVqfnk_J9MBWdo",
+            "expire_date": "2024-10-18 09:02:20.330840"
+        }
+    ],
+    "news_userprofile": [
+        {
+            "id": 1,
+            "is_author": 0,
+            "user_id": 2,
+            "account_type": 0
+        },
+        {
+            "id": 2,
+            "is_author": 0,
+            "user_id": 3,
+            "account_type": 0
+        },
+        {
+            "id": 3,
+            "is_author": 0,
+            "user_id": 4,
+            "account_type": 0
+        },
+        {
+            "id": 4,
+            "is_author": 0,
+            "user_id": 5,
+            "account_type": 0
+        },
+        {
+            "id": 5,
+            "is_author": 0,
+            "user_id": 6,
+            "account_type": 0
+        },
+        {
+            "id": 6,
+            "is_author": 1,
+            "user_id": 7,
+            "account_type": 0
+        },
+        {
+            "id": 7,
+            "is_author": 1,
+            "user_id": 8,
+            "account_type": 0
+        },
+        {
+            "id": 8,
+            "is_author": 1,
+            "user_id": 9,
+            "account_type": 0
+        },
+        {
+            "id": 9,
+            "is_author": 1,
+            "user_id": 10,
+            "account_type": 0
+        },
+        {
+            "id": 10,
+            "is_author": 1,
+            "user_id": 11,
+            "account_type": 0
+        }
+    ],
+    "django_site": [
+        {
+            "id": 1,
+            "name": "example.com",
+            "domain": "127.0.0.1:8000"
+        }
+    ],
+    "account_emailconfirmation": [],
+    "account_emailaddress": [
+        {
+            "id": 2,
+            "verified": 1,
+            "primary": 1,
+            "user_id": 22,
+            "email": "rostislavshmiglyuk@yandex.ru"
+        }
+    ],
+    "socialaccount_socialapp_sites": [],
+    "socialaccount_socialapp": [],
+    "socialaccount_socialtoken": [],
+    "socialaccount_socialaccount": [
+        {
+            "id": 2,
+            "provider": "yandex",
+            "uid": "1951457715",
+            "last_login": "2024-10-01 13:11:54.748197",
+            "date_joined": "2024-10-01 13:11:54.749193",
+            "user_id": 22,
+            "extra_data": "{\"id\": \"1951457715\", \"login\": \"rostislavshmiglyuk\", \"client_id\": \"9272275d143b4775a2e9cfa4156b5f83\", \"display_name\": \"rostislavshmiglyuk\", \"real_name\": \"Rostislav \\u0428\\u043c\\u0438\\u0433\\u043b\\u044e\\u043a\", \"first_name\": \"Rostislav\", \"last_name\": \"\\u0428\\u043c\\u0438\\u0433\\u043b\\u044e\\u043a\", \"sex\": null, \"default_email\": \"rostislavshmiglyuk@yandex.ru\", \"emails\": [\"rostislavshmiglyuk@yandex.ru\"], \"psuid\": \"1.AAyBqw.9hTevzUzy6RB90dNhoxSCQ.1Vo2wqWzEXGxAbJ4onUl2w\"}"
+        }
+    ],
+    "news_category_subscribers": [
+        {
+            "id": 22,
+            "category_id": 1,
+            "user_id": 20
+        },
+        {
+            "id": 23,
+            "category_id": 3,
+            "user_id": 20
+        },
+        {
+            "id": 24,
+            "category_id": 1,
+            "user_id": 10
+        },
+        {
+            "id": 25,
+            "category_id": 3,
+            "user_id": 10
+        },
+        {
+            "id": 26,
+            "category_id": 11,
+            "user_id": 10
+        },
+        {
+            "id": 27,
+            "category_id": 9,
+            "user_id": 10
+        },
+        {
+            "id": 28,
+            "category_id": 10,
+            "user_id": 10
+        },
+        {
+            "id": 29,
+            "category_id": 12,
+            "user_id": 10
+        },
+        {
+            "id": 30,
+            "category_id": 1,
+            "user_id": 4
+        }
+    ],
+    "news_category": [
+        {
+            "id": 1,
+            "name": "Спорт"
+        },
+        {
+            "id": 2,
+            "name": "Наука"
+        },
+        {
+            "id": 3,
+            "name": "Образование"
+        },
+        {
+            "id": 4,
+            "name": "Технологии"
+        },
+        {
+            "id": 5,
+            "name": "Политика"
+        },
+        {
+            "id": 6,
+            "name": "Экономика"
+        },
+        {
+            "id": 7,
+            "name": "Финансы"
+        },
+        {
+            "id": 8,
+            "name": "СМИ"
+        },
+        {
+            "id": 9,
+            "name": "Медицина"
+        },
+        {
+            "id": 10,
+            "name": "Музыка"
+        },
+        {
+            "id": 11,
+            "name": "Космос"
+        },
+        {
+            "id": 12,
+            "name": "Литература"
+        },
+        {
+            "id": 13,
+            "name": "Путешествия"
+        },
+        {
+            "id": 14,
+            "name": "Кино"
+        },
+        {
+            "id": 15,
+            "name": "Искусство"
+        }
+    ],
+    "django_apscheduler_djangojob": [
+        {
+            "id": "weekly_digest",
+            "next_run_time": "2024-10-07 12:06:00",
+            "job_state": "gAWVIgQAAAAAAAB9lCiMB3ZlcnNpb26USwGMAmlklIwNd2Vla2x5X2RpZ2VzdJSMBGZ1bmOUjB1uZXdzLnRhc2tzOnNlbmRfd2Vla2x5X2RpZ2VzdJSMB3RyaWdnZXKUjBlhcHNjaGVkdWxlci50cmlnZ2Vycy5jcm9ulIwLQ3JvblRyaWdnZXKUk5QpgZR9lChoAUsCjAh0aW1lem9uZZSMCGJ1aWx0aW5zlIwHZ2V0YXR0cpSTlIwSYmFja3BvcnRzLnpvbmVpbmZvlIwIWm9uZUluZm+Uk5SMCV91bnBpY2tsZZSGlFKUjA1FdXJvcGUvTG9uZG9ulEsBhpRSlIwKc3RhcnRfZGF0ZZROjAhlbmRfZGF0ZZROjAZmaWVsZHOUXZQojCBhcHNjaGVkdWxlci50cmlnZ2Vycy5jcm9uLmZpZWxkc5SMCUJhc2VGaWVsZJSTlCmBlH2UKIwEbmFtZZSMBHllYXKUjAppc19kZWZhdWx0lIiMC2V4cHJlc3Npb25zlF2UjCVhcHNjaGVkdWxlci50cmlnZ2Vycy5jcm9uLmV4cHJlc3Npb25zlIwNQWxsRXhwcmVzc2lvbpSTlCmBlH2UjARzdGVwlE5zYmF1YmgdjApNb250aEZpZWxklJOUKYGUfZQoaCKMBW1vbnRolGgkiGglXZRoKSmBlH2UaCxOc2JhdWJoHYwPRGF5T2ZNb250aEZpZWxklJOUKYGUfZQoaCKMA2RheZRoJIhoJV2UaCkpgZR9lGgsTnNiYXViaB2MCVdlZWtGaWVsZJSTlCmBlH2UKGgijAR3ZWVrlGgkiGglXZRoKSmBlH2UaCxOc2JhdWJoHYwORGF5T2ZXZWVrRmllbGSUk5QpgZR9lChoIowLZGF5X29mX3dlZWuUaCSJaCVdlGgpKYGUfZRoLE5zYmF1YmgfKYGUfZQoaCKMBGhvdXKUaCSJaCVdlGgnjA9SYW5nZUV4cHJlc3Npb26Uk5QpgZR9lChoLE6MBWZpcnN0lEsNjARsYXN0lEsNdWJhdWJoHymBlH2UKGgijAZtaW51dGWUaCSJaCVdlGhSKYGUfZQoaCxOaFVLBmhWSwZ1YmF1YmgfKYGUfZQoaCKMBnNlY29uZJRoJIhoJV2UaFIpgZR9lChoLE5oVUsAaFZLAHViYXViZYwGaml0dGVylE51YowIZXhlY3V0b3KUjAdkZWZhdWx0lIwEYXJnc5QpjAZrd2FyZ3OUfZRoIowSc2VuZF93ZWVrbHlfZGlnZXN0lIwSbWlzZmlyZV9ncmFjZV90aW1llEsBjAhjb2FsZXNjZZSIjA1tYXhfaW5zdGFuY2VzlEsBjA1uZXh0X3J1bl90aW1llIwIZGF0ZXRpbWWUjAhkYXRldGltZZSTlEMKB+gKBw0GAAAAAJRoGIaUUpR1Lg=="
+        },
+        {
+            "id": "daily_digest",
+            "next_run_time": "2024-10-07 08:25:42.631589",
+            "job_state": "gAWVDwIAAAAAAAB9lCiMB3ZlcnNpb26USwGMAmlklIwMZGFpbHlfZGlnZXN0lIwEZnVuY5SMHG5ld3MudGFza3M6c2VuZF9kYWlseV9kaWdlc3SUjAd0cmlnZ2VylIwdYXBzY2hlZHVsZXIudHJpZ2dlcnMuaW50ZXJ2YWyUjA9JbnRlcnZhbFRyaWdnZXKUk5QpgZR9lChoAUsCjAh0aW1lem9uZZSMCGJ1aWx0aW5zlIwHZ2V0YXR0cpSTlIwSYmFja3BvcnRzLnpvbmVpbmZvlIwIWm9uZUluZm+Uk5SMCV91bnBpY2tsZZSGlFKUjA1FdXJvcGUvTG9uZG9ulEsBhpRSlIwKc3RhcnRfZGF0ZZSMCGRhdGV0aW1llIwIZGF0ZXRpbWWUk5RDCgfoCgcJGSoJoyWUaBiGlFKUjAhlbmRfZGF0ZZROjAhpbnRlcnZhbJRoGowJdGltZWRlbHRhlJOUSwBLPEsAh5RSlIwGaml0dGVylE51YowIZXhlY3V0b3KUjAdkZWZhdWx0lIwEYXJnc5QpjAZrd2FyZ3OUfZSMBG5hbWWUjBFzZW5kX2RhaWx5X2RpZ2VzdJSMEm1pc2ZpcmVfZ3JhY2VfdGltZZRLAYwIY29hbGVzY2WUiIwNbWF4X2luc3RhbmNlc5RLAYwNbmV4dF9ydW5fdGltZZRoHEMKB+gKBwkZKgmjJZRoGIaUUpR1Lg=="
+        }
+    ],
+    "django_apscheduler_djangojobexecution": [
+        {
+            "id": 1,
+            "status": "Error!",
+            "run_time": "2024-10-04 12:41:00",
+            "duration": 0.07,
+            "finished": 1728045660.07,
+            "exception": "type object 'EmailContentBuilder' has no attribute 'generate_weekly_digest_email'",
+            "traceback": "  File \"C:\\Python38\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"C:\\Users\\rsmiglix\\OneDrive - Intel Corporation\\Documents\\GitHub\\NewsPortal\\news\\tasks.py\", line 36, in send_weekly_digest\n    subject, message = EmailContentBuilder.generate_weekly_digest_email(category, new_articles)\n",
+            "job_id": "weekly_digest"
+        },
+        {
+            "id": 2,
+            "status": "Error!",
+            "run_time": "2024-10-04 12:41:57.003705",
+            "duration": 0.01,
+            "finished": 1728045717.02,
+            "exception": "type object 'EmailContentBuilder' has no attribute 'generate_weekly_digest_email'",
+            "traceback": "  File \"C:\\Python38\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"C:\\Users\\rsmiglix\\OneDrive - Intel Corporation\\Documents\\GitHub\\NewsPortal\\news\\tasks.py\", line 72, in send_daily_digest\n    subject, message = EmailContentBuilder.generate_weekly_digest_email(category, new_articles)\n",
+            "job_id": "daily_digest"
+        },
+        {
+            "id": 3,
+            "status": "Error!",
+            "run_time": "2024-10-04 12:42:57.003705",
+            "duration": 0.02,
+            "finished": 1728045777.02,
+            "exception": "type object 'EmailContentBuilder' has no attribute 'generate_weekly_digest_email'",
+            "traceback": "  File \"C:\\Python38\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"C:\\Users\\rsmiglix\\OneDrive - Intel Corporation\\Documents\\GitHub\\NewsPortal\\news\\tasks.py\", line 72, in send_daily_digest\n    subject, message = EmailContentBuilder.generate_weekly_digest_email(category, new_articles)\n",
+            "job_id": "daily_digest"
+        },
+        {
+            "id": 4,
+            "status": "Error!",
+            "run_time": "2024-10-04 12:43:57.003705",
+            "duration": 0.01,
+            "finished": 1728045837.02,
+            "exception": "type object 'EmailContentBuilder' has no attribute 'generate_weekly_digest_email'",
+            "traceback": "  File \"C:\\Python38\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"C:\\Users\\rsmiglix\\OneDrive - Intel Corporation\\Documents\\GitHub\\NewsPortal\\news\\tasks.py\", line 72, in send_daily_digest\n    subject, message = EmailContentBuilder.generate_weekly_digest_email(category, new_articles)\n",
+            "job_id": "daily_digest"
+        },
+        {
+            "id": 5,
+            "status": "Error!",
+            "run_time": "2024-10-04 12:44:57.003705",
+            "duration": 0.01,
+            "finished": 1728045897.01,
+            "exception": "type object 'EmailContentBuilder' has no attribute 'generate_weekly_digest_email'",
+            "traceback": "  File \"C:\\Python38\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"C:\\Users\\rsmiglix\\OneDrive - Intel Corporation\\Documents\\GitHub\\NewsPortal\\news\\tasks.py\", line 72, in send_daily_digest\n    subject, message = EmailContentBuilder.generate_weekly_digest_email(category, new_articles)\n",
+            "job_id": "daily_digest"
+        },
+        {
+            "id": 6,
+            "status": "Executed",
+            "run_time": "2024-10-04 12:46:00",
+            "duration": 0.11,
+            "finished": 1728045960.11,
+            "exception": null,
+            "traceback": null,
+            "job_id": "weekly_digest"
+        },
+        {
+            "id": 7,
+            "status": "Executed",
+            "run_time": "2024-10-04 12:46:35.616212",
+            "duration": 0.08,
+            "finished": 1728045995.7,
+            "exception": null,
+            "traceback": null,
+            "job_id": "daily_digest"
+        },
+        {
+            "id": 8,
+            "status": "Executed",
+            "run_time": "2024-10-07 08:06:24.471354",
+            "duration": 0.08,
+            "finished": 1728288384.56,
+            "exception": null,
+            "traceback": null,
+            "job_id": "daily_digest"
+        }
+    ],
+    "django_celery_beat_intervalschedule": [],
+    "django_celery_beat_periodictasks": [],
+    "django_celery_beat_solarschedule": [],
+    "django_celery_beat_periodictask": [],
+    "django_celery_beat_clockedschedule": [],
+    "django_celery_beat_crontabschedule": [],
+    "django_celery_results_groupresult": [],
+    "django_celery_results_chordcounter": [],
+    "django_celery_results_taskresult": [
+        {
+            "id": 1,
+            "task_id": "cca05b7f-2e38-405e-8abf-fe212fb31f5d",
+            "status": "FAILURE",
+            "content_type": "application/json",
+            "content_encoding": "utf-8",
+            "result": "{\"exc_type\": \"NotRegistered\", \"exc_message\": [\"myapp.tasks.add\"], \"exc_module\": \"celery.exceptions\"}",
+            "date_done": "2024-10-07 08:53:21.234877",
+            "traceback": null,
+            "meta": "{\"children\": []}",
+            "task_args": null,
+            "task_kwargs": null,
+            "task_name": null,
+            "date_created": "2024-10-07 08:53:21.234877",
+            "worker": null,
+            "periodic_task_name": null
+        },
+        {
+            "id": 2,
+            "task_id": "a50c4ff4-f290-49cf-9391-c874061f7392",
+            "status": "FAILURE",
+            "content_type": "application/json",
+            "content_encoding": "utf-8",
+            "result": "{\"exc_type\": \"NotRegistered\", \"exc_message\": [\"myapp.tasks.add\"], \"exc_module\": \"celery.exceptions\"}",
+            "date_done": "2024-10-07 08:53:21.256905",
+            "traceback": null,
+            "meta": "{\"children\": []}",
+            "task_args": null,
+            "task_kwargs": null,
+            "task_name": null,
+            "date_created": "2024-10-07 08:53:21.256905",
+            "worker": null,
+            "periodic_task_name": null
+        },
+        {
+            "id": 3,
+            "task_id": "9828a217-1739-48d7-81df-6754d03f6e9b",
+            "status": "FAILURE",
+            "content_type": "application/json",
+            "content_encoding": "utf-8",
+            "result": "{\"exc_type\": \"NotRegistered\", \"exc_message\": [\"myapp.tasks.add\"], \"exc_module\": \"celery.exceptions\"}",
+            "date_done": "2024-10-07 08:53:51.247719",
+            "traceback": null,
+            "meta": "{\"children\": []}",
+            "task_args": null,
+            "task_kwargs": null,
+            "task_name": null,
+            "date_created": "2024-10-07 08:53:51.247719",
+            "worker": null,
+            "periodic_task_name": null
+        },
+        {
+            "id": 4,
+            "task_id": "83761c9c-9044-4186-ba32-0449f84e6d24",
+            "status": "FAILURE",
+            "content_type": "application/json",
+            "content_encoding": "utf-8",
+            "result": "{\"exc_type\": \"NotRegistered\", \"exc_message\": [\"myapp.tasks.add\"], \"exc_module\": \"celery.exceptions\"}",
+            "date_done": "2024-10-07 08:54:21.246196",
+            "traceback": null,
+            "meta": "{\"children\": []}",
+            "task_args": null,
+            "task_kwargs": null,
+            "task_name": null,
+            "date_created": "2024-10-07 08:54:21.246196",
+            "worker": null,
+            "periodic_task_name": null
+        },
+        {
+            "id": 5,
+            "task_id": "412891f8-0582-4dc5-870e-403aecbc570c",
+            "status": "FAILURE",
+            "content_type": "application/json",
+            "content_encoding": "utf-8",
+            "result": "{\"exc_type\": \"NotRegistered\", \"exc_message\": [\"myapp.tasks.add\"], \"exc_module\": \"celery.exceptions\"}",
+            "date_done": "2024-10-07 08:54:51.245256",
+            "traceback": null,
+            "meta": "{\"children\": []}",
+            "task_args": null,
+            "task_kwargs": null,
+            "task_name": null,
+            "date_created": "2024-10-07 08:54:51.245256",
+            "worker": null,
+            "periodic_task_name": null
+        },
+        {
+            "id": 6,
+            "task_id": "be26b573-e361-4fde-8b69-ae1d58c92d13",
+            "status": "FAILURE",
+            "content_type": "application/json",
+            "content_encoding": "utf-8",
+            "result": "{\"exc_type\": \"NotRegistered\", \"exc_message\": [\"myapp.tasks.add\"], \"exc_module\": \"celery.exceptions\"}",
+            "date_done": "2024-10-07 08:55:21.246219",
+            "traceback": null,
+            "meta": "{\"children\": []}",
+            "task_args": null,
+            "task_kwargs": null,
+            "task_name": null,
+            "date_created": "2024-10-07 08:55:21.246219",
+            "worker": null,
+            "periodic_task_name": null
+        },
+        {
+            "id": 7,
+            "task_id": "ece11c1e-fa41-4ad1-be25-92ff7f621f60",
+            "status": "FAILURE",
+            "content_type": "application/json",
+            "content_encoding": "utf-8",
+            "result": "{\"exc_type\": \"NotRegistered\", \"exc_message\": [\"myapp.tasks.add\"], \"exc_module\": \"celery.exceptions\"}",
+            "date_done": "2024-10-07 08:55:51.249834",
+            "traceback": null,
+            "meta": "{\"children\": []}",
+            "task_args": null,
+            "task_kwargs": null,
+            "task_name": null,
+            "date_created": "2024-10-07 08:55:51.249834",
+            "worker": null,
+            "periodic_task_name": null
+        },
+        {
+            "id": 8,
+            "task_id": "72280097-e0a8-44a1-ae30-0bb036713114",
+            "status": "FAILURE",
+            "content_type": "application/json",
+            "content_encoding": "utf-8",
+            "result": "{\"exc_type\": \"NotRegistered\", \"exc_message\": [\"myapp.tasks.add\"], \"exc_module\": \"celery.exceptions\"}",
+            "date_done": "2024-10-07 08:56:21.245923",
+            "traceback": null,
+            "meta": "{\"children\": []}",
+            "task_args": null,
+            "task_kwargs": null,
+            "task_name": null,
+            "date_created": "2024-10-07 08:56:21.245923",
+            "worker": null,
+            "periodic_task_name": null
+        },
+        {
+            "id": 9,
+            "task_id": "fbc7b522-0dcf-4b17-8481-85a7847e04a6",
+            "status": "FAILURE",
+            "content_type": "application/json",
+            "content_encoding": "utf-8",
+            "result": "{\"exc_type\": \"NotRegistered\", \"exc_message\": [\"myapp.tasks.add\"], \"exc_module\": \"celery.exceptions\"}",
+            "date_done": "2024-10-07 08:56:51.266813",
+            "traceback": null,
+            "meta": "{\"children\": []}",
+            "task_args": null,
+            "task_kwargs": null,
+            "task_name": null,
+            "date_created": "2024-10-07 08:56:51.266813",
+            "worker": null,
+            "periodic_task_name": null
+        },
+        {
+            "id": 10,
+            "task_id": "d05e1fd8-01f8-4d55-a4d7-94a059f5e308",
+            "status": "FAILURE",
+            "content_type": "application/json",
+            "content_encoding": "utf-8",
+            "result": "{\"exc_type\": \"NotRegistered\", \"exc_message\": [\"myapp.tasks.add\"], \"exc_module\": \"celery.exceptions\"}",
+            "date_done": "2024-10-07 08:57:21.263002",
+            "traceback": null,
+            "meta": "{\"children\": []}",
+            "task_args": null,
+            "task_kwargs": null,
+            "task_name": null,
+            "date_created": "2024-10-07 08:57:21.263002",
+            "worker": null,
+            "periodic_task_name": null
+        },
+        {
+            "id": 11,
+            "task_id": "12b29bce-e4af-4351-82bb-30f0810d77f9",
+            "status": "FAILURE",
+            "content_type": "application/json",
+            "content_encoding": "utf-8",
+            "result": "{\"exc_type\": \"NotRegistered\", \"exc_message\": [\"myapp.tasks.add\"], \"exc_module\": \"celery.exceptions\"}",
+            "date_done": "2024-10-07 08:57:51.267997",
+            "traceback": null,
+            "meta": "{\"children\": []}",
+            "task_args": null,
+            "task_kwargs": null,
+            "task_name": null,
+            "date_created": "2024-10-07 08:57:51.267997",
+            "worker": null,
+            "periodic_task_name": null
+        },
+        {
+            "id": 12,
+            "task_id": "a2460780-ef55-4247-8157-73aeaf4f726d",
+            "status": "FAILURE",
+            "content_type": "application/json",
+            "content_encoding": "utf-8",
+            "result": "{\"exc_type\": \"NotRegistered\", \"exc_message\": [\"myapp.tasks.add\"], \"exc_module\": \"celery.exceptions\"}",
+            "date_done": "2024-10-07 08:58:21.268268",
+            "traceback": null,
+            "meta": "{\"children\": []}",
+            "task_args": null,
+            "task_kwargs": null,
+            "task_name": null,
+            "date_created": "2024-10-07 08:58:21.268268",
+            "worker": null,
+            "periodic_task_name": null
+        },
+        {
+            "id": 13,
+            "task_id": "c8f6a9ff-8efc-4b07-a7e4-d7ac03efa018",
+            "status": "FAILURE",
+            "content_type": "application/json",
+            "content_encoding": "utf-8",
+            "result": "{\"exc_type\": \"NotRegistered\", \"exc_message\": [\"myapp.tasks.add\"], \"exc_module\": \"celery.exceptions\"}",
+            "date_done": "2024-10-07 08:58:51.264973",
+            "traceback": null,
+            "meta": "{\"children\": []}",
+            "task_args": null,
+            "task_kwargs": null,
+            "task_name": null,
+            "date_created": "2024-10-07 08:58:51.264973",
+            "worker": null,
+            "periodic_task_name": null
+        },
+        {
+            "id": 14,
+            "task_id": "e7bc4685-5c9a-42f7-9bd7-0c737801cbc7",
+            "status": "FAILURE",
+            "content_type": "application/json",
+            "content_encoding": "utf-8",
+            "result": "{\"exc_type\": \"NotRegistered\", \"exc_message\": [\"myapp.tasks.add\"], \"exc_module\": \"celery.exceptions\"}",
+            "date_done": "2024-10-07 08:59:21.266156",
+            "traceback": null,
+            "meta": "{\"children\": []}",
+            "task_args": null,
+            "task_kwargs": null,
+            "task_name": null,
+            "date_created": "2024-10-07 08:59:21.266156",
+            "worker": null,
+            "periodic_task_name": null
+        },
+        {
+            "id": 15,
+            "task_id": "135b9e55-1e8f-4440-94e2-11b3fe105c30",
+            "status": "FAILURE",
+            "content_type": "application/json",
+            "content_encoding": "utf-8",
+            "result": "{\"exc_type\": \"NotRegistered\", \"exc_message\": [\"myapp.tasks.add\"], \"exc_module\": \"celery.exceptions\"}",
+            "date_done": "2024-10-07 08:59:51.285331",
+            "traceback": null,
+            "meta": "{\"children\": []}",
+            "task_args": null,
+            "task_kwargs": null,
+            "task_name": null,
+            "date_created": "2024-10-07 08:59:51.285331",
+            "worker": null,
+            "periodic_task_name": null
+        },
+        {
+            "id": 16,
+            "task_id": "38c7421a-1db3-44e5-a31a-a7c68e729a0a",
+            "status": "FAILURE",
+            "content_type": "application/json",
+            "content_encoding": "utf-8",
+            "result": "{\"exc_type\": \"NotRegistered\", \"exc_message\": [\"myapp.tasks.add\"], \"exc_module\": \"celery.exceptions\"}",
+            "date_done": "2024-10-07 09:00:21.284103",
+            "traceback": null,
+            "meta": "{\"children\": []}",
+            "task_args": null,
+            "task_kwargs": null,
+            "task_name": null,
+            "date_created": "2024-10-07 09:00:21.284103",
+            "worker": null,
+            "periodic_task_name": null
+        },
+        {
+            "id": 17,
+            "task_id": "1be6f3d8-4258-4ae6-88c1-0d83f9230659",
+            "status": "FAILURE",
+            "content_type": "application/json",
+            "content_encoding": "utf-8",
+            "result": "{\"exc_type\": \"NotRegistered\", \"exc_message\": [\"myapp.tasks.add\"], \"exc_module\": \"celery.exceptions\"}",
+            "date_done": "2024-10-07 09:00:51.293530",
+            "traceback": null,
+            "meta": "{\"children\": []}",
+            "task_args": null,
+            "task_kwargs": null,
+            "task_name": null,
+            "date_created": "2024-10-07 09:00:51.292605",
+            "worker": null,
+            "periodic_task_name": null
+        },
+        {
+            "id": 18,
+            "task_id": "4ac07f79-8bc1-43ba-8727-7f55f2893e6c",
+            "status": "FAILURE",
+            "content_type": "application/json",
+            "content_encoding": "utf-8",
+            "result": "{\"exc_type\": \"NotRegistered\", \"exc_message\": [\"myapp.tasks.add\"], \"exc_module\": \"celery.exceptions\"}",
+            "date_done": "2024-10-07 09:50:06.345091",
+            "traceback": null,
+            "meta": "{\"children\": []}",
+            "task_args": null,
+            "task_kwargs": null,
+            "task_name": null,
+            "date_created": "2024-10-07 09:50:06.345091",
+            "worker": null,
+            "periodic_task_name": null
+        },
+        {
+            "id": 19,
+            "task_id": "6028a6a0-f7ff-4c3b-ad15-720ed2a18e85",
+            "status": "FAILURE",
+            "content_type": "application/json",
+            "content_encoding": "utf-8",
+            "result": "{\"exc_type\": \"NotRegistered\", \"exc_message\": [\"myapp.tasks.add\"], \"exc_module\": \"celery.exceptions\"}",
+            "date_done": "2024-10-07 09:50:06.391502",
+            "traceback": null,
+            "meta": "{\"children\": []}",
+            "task_args": null,
+            "task_kwargs": null,
+            "task_name": null,
+            "date_created": "2024-10-07 09:50:06.391502",
+            "worker": null,
+            "periodic_task_name": null
+        },
+        {
+            "id": 20,
+            "task_id": "bdb3fab9-3d91-4d0c-a3e5-84eb010fa108",
+            "status": "FAILURE",
+            "content_type": "application/json",
+            "content_encoding": "utf-8",
+            "result": "{\"exc_type\": \"NotRegistered\", \"exc_message\": [\"myapp.tasks.add\"], \"exc_module\": \"celery.exceptions\"}",
+            "date_done": "2024-10-07 09:50:06.464284",
+            "traceback": null,
+            "meta": "{\"children\": []}",
+            "task_args": null,
+            "task_kwargs": null,
+            "task_name": null,
+            "date_created": "2024-10-07 09:50:06.464284",
+            "worker": null,
+            "periodic_task_name": null
+        }
+    ],
+    "news_article": [
+        {
+            "id": 1,
+            "title": "Статья номер 11234123412341234",
+            "content": "Содержание статьи номер 1. Это случайный текст для статьи 1.\r\n\r\n«Эмоциональный» означает «имеющий отношение к эмоциям, чувствам человека, которые он, как правило, демонстрирует выражением лица или движениями тела». Некоторые примеры эмоций – это веселье, скука и страх.\r\n\r\n«Тон» означает «эмоциональное состояние человека». Оно может изменяться очень быстро, или же может оставаться неизменным очень долгое время.\r\n\r\n«Шкала» – это ряд шагов или уровней, которые расположены в определённой последовательности.\r\n\r\nШкала эмоциональных тонов показывает все эмоции, которые может испытывать человек в любой момент жизни.",
+            "publication_date": "2024-09-20",
+            "article_type": 1,
+            "author_profile_id": 2,
+            "category_id": 7,
+            "rating_id": 4
+        },
+        {
+            "id": 2,
+            "title": "Статья номер 2",
+            "content": "Содержание статьи номер 2. Это случайный текст для статьи 2.",
+            "publication_date": "2024-09-20",
+            "article_type": 1,
+            "author_profile_id": 10,
+            "category_id": 6,
+            "rating_id": 3
+        },
+        {
+            "id": 3,
+            "title": "Статья номер 3",
+            "content": "Содержание статьи номер 3. Это случайный текст для статьи 3.",
+            "publication_date": "2024-09-20",
+            "article_type": 1,
+            "author_profile_id": 4,
+            "category_id": 1,
+            "rating_id": 4
+        },
+        {
+            "id": 4,
+            "title": "Статья номер 4",
+            "content": "Содержание статьи номер 4. Это случайный текст для статьи 4.",
+            "publication_date": "2024-09-20",
+            "article_type": 1,
+            "author_profile_id": 11,
+            "category_id": 1,
+            "rating_id": 3
+        },
+        {
+            "id": 5,
+            "title": "Статья номер 5",
+            "content": "Содержание статьи номер 5. Это случайный текст для статьи 5.",
+            "publication_date": "2024-09-20",
+            "article_type": 1,
+            "author_profile_id": 5,
+            "category_id": 7,
+            "rating_id": 3
+        },
+        {
+            "id": 6,
+            "title": "Статья номер 6",
+            "content": "Содержание статьи номер 6. Это случайный текст для статьи 6.",
+            "publication_date": "2024-09-20",
+            "article_type": 1,
+            "author_profile_id": 8,
+            "category_id": 11,
+            "rating_id": 3
+        },
+        {
+            "id": 7,
+            "title": "Статья номер 7",
+            "content": "Содержание статьи номер 7. Это случайный текст для статьи 7.",
+            "publication_date": "2024-09-20",
+            "article_type": 1,
+            "author_profile_id": 9,
+            "category_id": 12,
+            "rating_id": 1
+        },
+        {
+            "id": 8,
+            "title": "Статья номер 8",
+            "content": "Содержание статьи номер 8. Это случайный текст для статьи 8.",
+            "publication_date": "2024-09-20",
+            "article_type": 1,
+            "author_profile_id": 9,
+            "category_id": 9,
+            "rating_id": 4
+        },
+        {
+            "id": 9,
+            "title": "Статья номер 9",
+            "content": "Содержание статьи номер 9. Это случайный текст для статьи 9.",
+            "publication_date": "2024-09-20",
+            "article_type": 1,
+            "author_profile_id": 3,
+            "category_id": 5,
+            "rating_id": 2
+        },
+        {
+            "id": 10,
+            "title": "Статья номер 10",
+            "content": "Содержание статьи номер 10. Это случайный текст для статьи 10.",
+            "publication_date": "2024-09-20",
+            "article_type": 1,
+            "author_profile_id": 8,
+            "category_id": 7,
+            "rating_id": 4
+        },
+        {
+            "id": 11,
+            "title": "Статья номер 11",
+            "content": "Содержание статьи номер 11. Это случайный текст для статьи 11.",
+            "publication_date": "2024-09-20",
+            "article_type": 1,
+            "author_profile_id": 6,
+            "category_id": 5,
+            "rating_id": 3
+        },
+        {
+            "id": 12,
+            "title": "Статья номер 12",
+            "content": "Содержание статьи номер 12. Это случайный текст для статьи 12.",
+            "publication_date": "2024-09-20",
+            "article_type": 1,
+            "author_profile_id": 3,
+            "category_id": 4,
+            "rating_id": 2
+        },
+        {
+            "id": 13,
+            "title": "Статья номер 13",
+            "content": "Содержание статьи номер 13. Это случайный текст для статьи 13.",
+            "publication_date": "2024-09-20",
+            "article_type": 1,
+            "author_profile_id": 9,
+            "category_id": 6,
+            "rating_id": 4
+        },
+        {
+            "id": 14,
+            "title": "Статья номер 14",
+            "content": "Содержание статьи номер 14. Это случайный текст для статьи 14.",
+            "publication_date": "2024-09-20",
+            "article_type": 1,
+            "author_profile_id": 3,
+            "category_id": 11,
+            "rating_id": 4
+        },
+        {
+            "id": 15,
+            "title": "Статья номер 15",
+            "content": "Содержание статьи номер 15. Это случайный текст для статьи 15.",
+            "publication_date": "2024-09-20",
+            "article_type": 1,
+            "author_profile_id": 4,
+            "category_id": 10,
+            "rating_id": 1
+        },
+        {
+            "id": 16,
+            "title": "Статья номер 16",
+            "content": "Содержание статьи номер 16. Это случайный текст для статьи 16.",
+            "publication_date": "2024-09-20",
+            "article_type": 1,
+            "author_profile_id": 3,
+            "category_id": 1,
+            "rating_id": 3
+        },
+        {
+            "id": 17,
+            "title": "Статья номер 17",
+            "content": "Содержание статьи номер 17. Это случайный текст для статьи 17.",
+            "publication_date": "2024-09-20",
+            "article_type": 1,
+            "author_profile_id": 9,
+            "category_id": 4,
+            "rating_id": 5
+        },
+        {
+            "id": 18,
+            "title": "Статья номер 18",
+            "content": "Содержание статьи номер 18. Это случайный текст для статьи 18.",
+            "publication_date": "2024-09-20",
+            "article_type": 1,
+            "author_profile_id": 3,
+            "category_id": 3,
+            "rating_id": 3
+        },
+        {
+            "id": 19,
+            "title": "Статья номер 19",
+            "content": "Содержание статьи номер 19. Это случайный текст для статьи 19.",
+            "publication_date": "2024-09-20",
+            "article_type": 1,
+            "author_profile_id": 6,
+            "category_id": 10,
+            "rating_id": 4
+        },
+        {
+            "id": 20,
+            "title": "Статья номер 20",
+            "content": "Содержание статьи номер 20. Это случайный текст для статьи 20.",
+            "publication_date": "2024-09-20",
+            "article_type": 1,
+            "author_profile_id": 9,
+            "category_id": 7,
+            "rating_id": 5
+        },
+        {
+            "id": 21,
+            "title": "Статья номер 21",
+            "content": "Содержание статьи номер 21. Это случайный текст для статьи 21.",
+            "publication_date": "2024-09-20",
+            "article_type": 0,
+            "author_profile_id": 7,
+            "category_id": 13,
+            "rating_id": 5
+        },
+        {
+            "id": 22,
+            "title": "Статья номер 22",
+            "content": "Содержание статьи номер 22. Это случайный текст для статьи 22.",
+            "publication_date": "2024-09-20",
+            "article_type": 0,
+            "author_profile_id": 7,
+            "category_id": 8,
+            "rating_id": 2
+        },
+        {
+            "id": 23,
+            "title": "Статья номер 23",
+            "content": "Содержание статьи номер 23. Это случайный текст для статьи 23.",
+            "publication_date": "2024-09-20",
+            "article_type": 0,
+            "author_profile_id": 8,
+            "category_id": 15,
+            "rating_id": 3
+        },
+        {
+            "id": 24,
+            "title": "Статья номер 24",
+            "content": "Содержание статьи номер 24. Это случайный текст для статьи 24.",
+            "publication_date": "2024-09-20",
+            "article_type": 0,
+            "author_profile_id": 4,
+            "category_id": 11,
+            "rating_id": 5
+        },
+        {
+            "id": 25,
+            "title": "Статья номер 25",
+            "content": "Содержание статьи номер 25. Это случайный текст для статьи 25.",
+            "publication_date": "2024-09-20",
+            "article_type": 0,
+            "author_profile_id": 4,
+            "category_id": 5,
+            "rating_id": 3
+        },
+        {
+            "id": 26,
+            "title": "Статья номер 26",
+            "content": "Содержание статьи номер 26. Это случайный текст для статьи 26.",
+            "publication_date": "2024-09-20",
+            "article_type": 0,
+            "author_profile_id": 2,
+            "category_id": 10,
+            "rating_id": 3
+        },
+        {
+            "id": 27,
+            "title": "Статья номер 27",
+            "content": "Содержание статьи номер 27. Это случайный текст для статьи 27.",
+            "publication_date": "2024-09-20",
+            "article_type": 0,
+            "author_profile_id": 8,
+            "category_id": 1,
+            "rating_id": 4
+        },
+        {
+            "id": 28,
+            "title": "Статья номер 28",
+            "content": "Содержание статьи номер 28. Это случайный текст для статьи 28.",
+            "publication_date": "2024-09-20",
+            "article_type": 0,
+            "author_profile_id": 4,
+            "category_id": 5,
+            "rating_id": 3
+        },
+        {
+            "id": 29,
+            "title": "Статья номер 29",
+            "content": "Содержание статьи номер 29. Это случайный текст для статьи 29.",
+            "publication_date": "2024-09-20",
+            "article_type": 0,
+            "author_profile_id": 9,
+            "category_id": 9,
+            "rating_id": 2
+        },
+        {
+            "id": 30,
+            "title": "Статья номер 30",
+            "content": "Содержание статьи номер 30. Это случайный текст для статьи 30.",
+            "publication_date": "2024-09-20",
+            "article_type": 0,
+            "author_profile_id": 3,
+            "category_id": 5,
+            "rating_id": 4
+        },
+        {
+            "id": 31,
+            "title": "Статья номер 31",
+            "content": "Содержание статьи номер 31. Это случайный текст для статьи 31.",
+            "publication_date": "2024-09-20",
+            "article_type": 0,
+            "author_profile_id": 4,
+            "category_id": 5,
+            "rating_id": 1
+        },
+        {
+            "id": 32,
+            "title": "Статья номер 32",
+            "content": "Содержание статьи номер 32. Это случайный текст для статьи 32.",
+            "publication_date": "2024-09-20",
+            "article_type": 0,
+            "author_profile_id": 9,
+            "category_id": 13,
+            "rating_id": 5
+        },
+        {
+            "id": 33,
+            "title": "Статья номер 33",
+            "content": "Содержание статьи номер 33. Это случайный текст для статьи 33.",
+            "publication_date": "2024-09-20",
+            "article_type": 0,
+            "author_profile_id": 3,
+            "category_id": 12,
+            "rating_id": 3
+        },
+        {
+            "id": 34,
+            "title": "Статья номер 34",
+            "content": "Содержание статьи номер 34. Это случайный текст для статьи 34.",
+            "publication_date": "2024-09-20",
+            "article_type": 0,
+            "author_profile_id": 9,
+            "category_id": 5,
+            "rating_id": 2
+        },
+        {
+            "id": 35,
+            "title": "Статья номер 35",
+            "content": "Содержание статьи номер 35. Это случайный текст для статьи 35.",
+            "publication_date": "2024-09-20",
+            "article_type": 0,
+            "author_profile_id": 3,
+            "category_id": 7,
+            "rating_id": 4
+        },
+        {
+            "id": 36,
+            "title": "Статья номер 36",
+            "content": "Содержание статьи номер 36. Это случайный текст для статьи 36.",
+            "publication_date": "2024-09-20",
+            "article_type": 0,
+            "author_profile_id": 6,
+            "category_id": 8,
+            "rating_id": 2
+        },
+        {
+            "id": 37,
+            "title": "Статья номер 37",
+            "content": "Содержание статьи номер 37. Это случайный текст для статьи 37.",
+            "publication_date": "2024-09-20",
+            "article_type": 0,
+            "author_profile_id": 8,
+            "category_id": 15,
+            "rating_id": 2
+        },
+        {
+            "id": 38,
+            "title": "Статья номер 38",
+            "content": "Содержание статьи номер 38. Это случайный текст для статьи 38.",
+            "publication_date": "2024-09-20",
+            "article_type": 0,
+            "author_profile_id": 2,
+            "category_id": 3,
+            "rating_id": 2
+        },
+        {
+            "id": 39,
+            "title": "Статья номер 39",
+            "content": "Содержание статьи номер 39. Это случайный текст для статьи 39.",
+            "publication_date": "2024-09-20",
+            "article_type": 0,
+            "author_profile_id": 5,
+            "category_id": 13,
+            "rating_id": 5
+        },
+        {
+            "id": 40,
+            "title": "Статья номер 40",
+            "content": "Содержание статьи номер 40. Это случайный текст для статьи 40.",
+            "publication_date": "2024-09-20",
+            "article_type": 0,
+            "author_profile_id": 4,
+            "category_id": 8,
+            "rating_id": 4
+        },
+        {
+            "id": 41,
+            "title": "Новость Отредактирована 1 раз",
+            "content": "Сильнейший шахматист России — о победе в Мемориале Гашимова, подготовке к ЧМ в Нью-Йорке и мечте выиграть Олимпиаду.\r\nВ выходные в Шуше завершился Мемориал Вугара Гашимова, который традиционно собирает в Азербайджане элитный состав (четыре раза турнир выигрывал Магнус Карлсен, в 2023 году итоговую победу одержал Видит Гуджрати). На этот раз восемь гроссмейстеров сыграли один круг в быстрые шахматы, где за победу начислялось два очка, за ничью — одно, а также два круга в блиц. Результаты в обоих турнирах суммировались; при дележе в приоритете было количество очков, набранное в рапиде. По итогам обоих соревнований первое место занял Ян Непомнящий, набравший 19 очков. На одно очко россиянин опередил Нодирбека Абдусатторова, на три очка — Шахрияра Мамедьярова, на 4,5 — действующего чемпиона России Владислава Артемьева.\r\n\r\nПомимо победы на Мемориале Гашимова на прошлой неделе Непомнящий также отобрался в финал Champions Chess Tour, который пройдет в декабре в Осло. Мы связались с Яном, чтобы обсудить его последние успехи и поговорить о планах на следующий год, который будет очень важным в борьбе за шахматную корону.",
+            "publication_date": "2024-10-02",
+            "article_type": 1,
+            "author_profile_id": 20,
+            "category_id": 1,
+            "rating_id": null
+        },
+        {
+            "id": 42,
+            "title": "Про спрот",
+            "content": "Главный тренер «Локомотива» Михаил Галактионов в комментарии «СЭ» оценил результативность полузащитника команды Алексея Батракова.\r\n\r\n«Обученность, желание проявлять себя, что естественно для молодого футболиста. Отличные человеческие качества, он прекрасно влился в коллектив. Для его возраста у него уже есть класс, который позволяет играть и давать разницу», — сказал Галактионов «СЭ».",
+            "publication_date": "2024-10-02",
+            "article_type": 1,
+            "author_profile_id": 10,
+            "category_id": 1,
+            "rating_id": null
+        },
+        {
+            "id": 43,
+            "title": "Это новая новость про космос",
+            "content": "Астрономы восстановили события вспышки сверхновой возле Земли 2,5 млн лет назад Как всё было\r\nГруппа астрономов определила вероятное местоположение вспышки сверхновой, произошедшей 2,5 миллиона лет назад рядом с Землей. Это событие обогатило планету радиоактивным изотопом железа-60 и подвергло её воздействию космического излучения. Вспышка, скорее всего, произошла от массивной звезды в ассоциациях Верхнего Центавра—Волка или Тукана—Часов, как следует из исследования, опубликованного на arXiv.org, на которое ссылается N+1.",
+            "publication_date": "2024-10-02",
+            "article_type": 1,
+            "author_profile_id": 20,
+            "category_id": 11,
+            "rating_id": null
+        },
+        {
+            "id": 44,
+            "title": "Про космос",
+            "content": "Астрономы восстановили события вспышки сверхновой возле Земли 2,5 млн лет назад Как всё было\r\nГруппа астрономов определила вероятное местоположение вспышки сверхновой, произошедшей 2,5 миллиона лет назад рядом с Землей. Это событие обогатило планету радиоактивным изотопом железа-60 и подвергло её воздействию космического излучения. Вспышка, скорее всего, произошла от массивной звезды в ассоциациях Верхнего Центавра—Волка или Тукана—Часов, как следует из исследования, опубликованного на arXiv.org, на которое ссылается N+1.",
+            "publication_date": "2024-10-02",
+            "article_type": 0,
+            "author_profile_id": 20,
+            "category_id": 11,
+            "rating_id": null
+        },
+        {
+            "id": 45,
+            "title": "Это первая новость за сутки",
+            "content": "Тут написано что-то про науку. Тут написано что-то про науку.Тут написано что-то про науку.Тут написано что-то про науку.Тут написано что-то про науку.Тут написано что-то про науку.Тут написано что-то про науку.Тут написано что-то про науку.Тут написано что-то про науку.Тут написано что-то про науку.Тут написано что-то про науку.Тут написано что-то про науку.Тут написано что-то про науку.Тут написано что-то про науку.Тут написано что-то про науку.Тут написано что-то про науку.Тут написано что-то про науку.Тут написано что-то про науку.",
+            "publication_date": "2024-10-03",
+            "article_type": 1,
+            "author_profile_id": 20,
+            "category_id": 2,
+            "rating_id": null
+        },
+        {
+            "id": 46,
+            "title": "Это 2 пост за сегодня",
+            "content": "Тут про образование.\r\nТут про образование.Тут про образование.Тут про образование.Тут про образование.Тут про образование.Тут про образование.Тут про образование.Тут про образование.Тут про образование.Тут про образование.Тут про образование.Тут про образование.Тут про образование.",
+            "publication_date": "2024-10-03",
+            "article_type": 0,
+            "author_profile_id": 20,
+            "category_id": 3,
+            "rating_id": null
+        },
+        {
+            "id": 47,
+            "title": "Это статься которая ",
+            "content": "Это статься которая про спорт\r\nЭто статься которая про спортЭто статься которая про спортЭто статься которая про спортЭто статься которая про спортЭто статься которая про спортЭто статься которая про спортЭто статься которая про спортЭто статься которая про спортЭто статься которая про спортЭто статься которая про спортЭто статься которая про спортЭто статься которая про спортЭто статься которая про спортЭто статься которая про спортЭто статься которая про спорт",
+            "publication_date": "2024-10-03",
+            "article_type": 0,
+            "author_profile_id": 20,
+            "category_id": 1,
+            "rating_id": null
+        },
+        {
+            "id": 48,
+            "title": "Это первая новость Светлана Морозова за сегодня",
+            "content": "Новость про спрорт\r\nНовость про спрорт\r\nНовость про спрорт\r\nНовость про спрорт\r\nНовость про спрорт\r\nНовость про спрорт\r\nНовость про спрорт\r\nНовость про спрорт\r\nНовость про спрорт\r\nНовость про спрортНовость про спрорт",
+            "publication_date": "2024-10-03",
+            "article_type": 1,
+            "author_profile_id": 11,
+            "category_id": 1,
+            "rating_id": null
+        },
+        {
+            "id": 49,
+            "title": "Это первая статья Светлана Морозова за сегодня",
+            "content": "Это первая статья Светлана Морозова за сегодня Про образование\r\nЭто первая статья Светлана Морозова за сегодня Про образованиеЭто первая статья Светлана Морозова за сегодня Про образованиеЭто первая статья Светлана Морозова за сегодня Про образованиеЭто первая статья Светлана Морозова за сегодня Про образованиеЭто первая статья Светлана Морозова за сегодня Про образованиеЭто первая статья Светлана Морозова за сегодня Про образованиеЭто первая статья Светлана Морозова за сегодня Про образованиеЭто первая статья Светлана Морозова за сегодня Про образованиеЭто первая статья Светлана Морозова за сегодня Про образованиеЭто первая статья Светлана Морозова за сегодня Про образованиеЭто первая статья Светлана Морозова за сегодня Про образование",
+            "publication_date": "2024-10-03",
+            "article_type": 0,
+            "author_profile_id": 11,
+            "category_id": 3,
+            "rating_id": null
+        },
+        {
+            "id": 50,
+            "title": "Это вторая статья ",
+            "content": "Это первая статья Светлана Морозова за сегодня Про образованиеЭто первая статья Светлана Морозова за сегодня Про образованиеЭто первая статья Светлана Морозова за сегодня Про образованиеЭто первая статья Светлана Морозова за сегодня Про образованиеЭто первая статья Светлана Морозова за сегодня Про образованиеЭто первая статья Светлана Морозова за сегодня Про образованиеЭто первая статья Светлана Морозова за сегодня Про образованиеЭто первая статья Светлана Морозова за сегодня Про образованиеЭто первая статья Светлана Морозова за сегодня Про образованиеЭто первая статья Светлана Морозова за сегодня Про образованиеЭто первая статья Светлана Морозова за сегодня Про образованиеЭто первая статья Светлана Морозова за сегодня Про образованиеЭто первая статья Светлана Морозова за сегодня Про образованиеЭто первая статья Светлана Морозова за сегодня Про образование",
+            "publication_date": "2024-10-03",
+            "article_type": 0,
+            "author_profile_id": 11,
+            "category_id": 10,
+            "rating_id": null
+        },
+        {
+            "id": 51,
+            "title": "Это 4 пост",
+            "content": "СОЗДАНИЕ НОВОСТИ\r\nАвтор: Светлана Морозова\r\nСОЗДАНИЕ НОВОСТИ\r\nАвтор: Светлана МорозоваСОЗДАНИЕ НОВОСТИ\r\nАвтор: Светлана МорозоваСОЗДАНИЕ НОВОСТИ\r\nАвтор: Светлана МорозоваСОЗДАНИЕ НОВОСТИ\r\nАвтор: Светлана МорозоваСОЗДАНИЕ НОВОСТИ\r\nАвтор: Светлана Морозова",
+            "publication_date": "2024-10-03",
+            "article_type": 1,
+            "author_profile_id": 11,
+            "category_id": 12,
+            "rating_id": null
+        },
+        {
+            "id": 52,
+            "title": "Это 5 статья",
+            "content": "СОЗДАНИЕ СТАТЬИ\r\nАвтор: Светлана Морозова\r\nНазвание статьи: \r\n5 статься\r\n\r\nКатегория: \r\nСОЗДАНИЕ СТАТЬИ\r\nАвтор: Светлана Морозова\r\nНазвание статьи: \r\n5 статься\r\n\r\nКатегория: СОЗДАНИЕ СТАТЬИ\r\nАвтор: Светлана Морозова\r\nНазвание статьи: \r\n5 статься\r\n\r\nКатегория: СОЗДАНИЕ СТАТЬИ\r\nАвтор: Светлана Морозова\r\nНазвание статьи: \r\n5 статься\r\n\r\nКатегория: СОЗДАНИЕ СТАТЬИ\r\nАвтор: Светлана Морозова\r\nНазвание статьи: \r\n5 статься\r\n\r\nКатегория: СОЗДАНИЕ СТАТЬИ\r\nАвтор: Светлана Морозова\r\nНазвание статьи: \r\n5 статься\r\n\r\nКатегория: \r\nСОЗДАНИЕ СТАТЬИ\r\nАвтор: Светлана Морозова\r\nНазвание статьи: \r\n5 статься\r\n\r\nКатегория: \r\nСОЗДАНИЕ СТАТЬИ\r\nАвтор: Светлана Морозова\r\nНазвание статьи: \r\n5 статься\r\n\r\nКатегория: ",
+            "publication_date": "2024-10-03",
+            "article_type": 0,
+            "author_profile_id": 11,
+            "category_id": 12,
+            "rating_id": null
+        },
+        {
+            "id": 53,
+            "title": "Cghjasdf;lkj",
+            "content": "СОЗДАНИЕ НОВОСТИ\r\nАвтор: Алексей Петров\r\nНазвание новости: \r\nCghjasdf;lkj\r\n\r\nКатегория...\r\n\r\nСОЗДАНИЕ НОВОСТИ\r\nАвтор: Алексей Петров\r\nНазвание новости: \r\nCghjasdf;lkj\r\n\r\nКатегория\r\n\r\nСОЗДАНИЕ НОВОСТИ\r\nАвтор: Алексей Петров\r\nНазвание новости: \r\nCghjasdf;lkj\r\n\r\nКатегория\r\n\r\nСОЗДАНИЕ НОВОСТИ\r\nАвтор: Алексей Петров\r\nНазвание новости: \r\nCghjasdf;lkj\r\n\r\nКатегория",
+            "publication_date": "2024-10-03",
+            "article_type": 1,
+            "author_profile_id": 4,
+            "category_id": 1,
+            "rating_id": null
+        },
+        {
+            "id": 54,
+            "title": "Статья 1 от Иван Иванов",
+            "content": "Здравствуйте!\r\n\r\nИнформация в юнитах дана для примера и понимания как работает и как можно реализовать тот или иной функционал. Для этого всякий раз могут использоваться разные проекты, чтобы дать вам информацию, которую вы на своём проекте сможете применить по аналогии, а не просто скопировать из модуля.\r\n\r\nПроекты, показанные в юнитах, являются примерами тех или иных реализаций. Они не являются частью основного вашего проекта и относятся только к текущему юниту.\r\n\r\nВ конце каждого юнита могут быть указаны отдельные задания, связанные с проектом новостного портала и которые вы можете уже сделать по ходу прохождения модуля.\r\n\r\nОднако, стоит иметь в виду, что полные условия итоговых заданий находятся в конце каждого модуля, там где нужно его сдавать на проверку. Выполнение именно этих условий будет оцениваться при проверке работ. По факту вы можете выполнять только то, что описано в итоговом задании каждого модуля.",
+            "publication_date": "2024-10-04",
+            "article_type": 1,
+            "author_profile_id": 3,
+            "category_id": 1,
+            "rating_id": null
+        },
+        {
+            "id": 55,
+            "title": "Статья 2",
+            "content": "Здравствуйте!\r\n\r\nИнформация в юнитах дана для примера и понимания как работает и как можно реализовать тот или иной функционал. Для этого всякий раз могут использоваться разные проекты, чтобы дать вам информацию, которую вы на своём проекте сможете применить по аналогии, а не просто скопировать из модуля.\r\n\r\nПроекты, показанные в юнитах, являются примерами тех или иных реализаций. Они не являются частью основного вашего проекта и относятся только к текущему юниту.\r\n\r\nВ конце каждого юнита могут быть указаны отдельные задания, связанные с проектом новостного портала и которые вы можете уже сделать по ходу прохождения модуля.\r\n\r\nОднако, стоит иметь в виду, что полные условия итоговых заданий находятся в конце каждого модуля, там где нужно его сдавать на проверку. Выполнение именно этих условий будет оцениваться при проверке работ. По факту вы можете выполнять только то, что описано в итоговом задании каждого модуля.",
+            "publication_date": "2024-10-04",
+            "article_type": 0,
+            "author_profile_id": 3,
+            "category_id": 2,
+            "rating_id": null
+        },
+        {
+            "id": 56,
+            "title": "Статья 3",
+            "content": "Здравствуйте!\r\n\r\nИнформация в юнитах дана для примера и понимания как работает и как можно реализовать тот или иной функционал. Для этого всякий раз могут использоваться разные проекты, чтобы дать вам информацию, которую вы на своём проекте сможете применить по аналогии, а не просто скопировать из модуля.\r\n\r\nПроекты, показанные в юнитах, являются примерами тех или иных реализаций. Они не являются частью основного вашего проекта и относятся только к текущему юниту.\r\n\r\nВ конце каждого юнита могут быть указаны отдельные задания, связанные с проектом новостного портала и которые вы можете уже сделать по ходу прохождения модуля.\r\n\r\nОднако, стоит иметь в виду, что полные условия итоговых заданий находятся в конце каждого модуля, там где нужно его сдавать на проверку. Выполнение именно этих условий будет оцениваться при проверке работ. По факту вы можете выполнять только то, что описано в итоговом задании каждого модуля.",
+            "publication_date": "2024-10-04",
+            "article_type": 0,
+            "author_profile_id": 3,
+            "category_id": 1,
+            "rating_id": null
+        },
+        {
+            "id": 57,
+            "title": "Статья 4",
+            "content": "Здравствуйте!\r\n\r\nИнформация в юнитах дана для примера и понимания как работает и как можно реализовать тот или иной функционал. Для этого всякий раз могут использоваться разные проекты, чтобы дать вам информацию, которую вы на своём проекте сможете применить по аналогии, а не просто скопировать из модуля.\r\n\r\nПроекты, показанные в юнитах, являются примерами тех или иных реализаций. Они не являются частью основного вашего проекта и относятся только к текущему юниту.\r\n\r\nВ конце каждого юнита могут быть указаны отдельные задания, связанные с проектом новостного портала и которые вы можете уже сделать по ходу прохождения модуля.\r\n\r\nОднако, стоит иметь в виду, что полные условия итоговых заданий находятся в конце каждого модуля, там где нужно его сдавать на проверку. Выполнение именно этих условий будет оцениваться при проверке работ. По факту вы можете выполнять только то, что описано в итоговом задании каждого модуля.",
+            "publication_date": "2024-10-04",
+            "article_type": 1,
+            "author_profile_id": 3,
+            "category_id": 1,
+            "rating_id": null
+        },
+        {
+            "id": 58,
+            "title": "Новость 5",
+            "content": "Здравствуйте!\r\n\r\nИнформация в юнитах дана для примера и понимания как работает и как можно реализовать тот или иной функционал. Для этого всякий раз могут использоваться разные проекты, чтобы дать вам информацию, которую вы на своём проекте сможете применить по аналогии, а не просто скопировать из модуля.\r\n\r\nПроекты, показанные в юнитах, являются примерами тех или иных реализаций. Они не являются частью основного вашего проекта и относятся только к текущему юниту.\r\n\r\nВ конце каждого юнита могут быть указаны отдельные задания, связанные с проектом новостного портала и которые вы можете уже сделать по ходу прохождения модуля.\r\n\r\nОднако, стоит иметь в виду, что полные условия итоговых заданий находятся в конце каждого модуля, там где нужно его сдавать на проверку. Выполнение именно этих условий будет оцениваться при проверке работ. По факту вы можете выполнять только то, что описано в итоговом задании каждого модуля.",
+            "publication_date": "2024-10-04",
+            "article_type": 1,
+            "author_profile_id": 3,
+            "category_id": 1,
+            "rating_id": null
+        },
+        {
+            "id": 59,
+            "title": "Первая новость Дмитрий Ковалёв",
+            "content": "Здравствуйте!\r\n\r\nИнформация в юнитах дана для примера и понимания как работает и как можно реализовать тот или иной функционал. Для этого всякий раз могут использоваться разные проекты, чтобы дать вам информацию, которую вы на своём проекте сможете применить по аналогии, а не просто скопировать из модуля.\r\n\r\nПроекты, показанные в юнитах, являются примерами тех или иных реализаций. Они не являются частью основного вашего проекта и относятся только к текущему юниту.\r\n\r\nВ конце каждого юнита могут быть указаны отдельные задания, связанные с проектом новостного портала и которые вы можете уже сделать по ходу прохождения модуля.\r\n\r\nОднако, стоит иметь в виду, что полные условия итоговых заданий находятся в конце каждого модуля, там где нужно его сдавать на проверку. Выполнение именно этих условий будет оцениваться при проверке работ. По факту вы можете выполнять только то, что описано в итоговом задании каждого модуля.",
+            "publication_date": "2024-10-04",
+            "article_type": 1,
+            "author_profile_id": 6,
+            "category_id": 1,
+            "rating_id": null
+        },
+        {
+            "id": 60,
+            "title": "Первая новость Дмитрий Ковалёв",
+            "content": "Здравствуйте!\r\n\r\nИнформация в юнитах дана для примера и понимания как работает и как можно реализовать тот или иной функционал. Для этого всякий раз могут использоваться разные проекты, чтобы дать вам информацию, которую вы на своём проекте сможете применить по аналогии, а не просто скопировать из модуля.\r\n\r\nПроекты, показанные в юнитах, являются примерами тех или иных реализаций. Они не являются частью основного вашего проекта и относятся только к текущему юниту.\r\n\r\nВ конце каждого юнита могут быть указаны отдельные задания, связанные с проектом новостного портала и которые вы можете уже сделать по ходу прохождения модуля.\r\n\r\nОднако, стоит иметь в виду, что полные условия итоговых заданий находятся в конце каждого модуля, там где нужно его сдавать на проверку. Выполнение именно этих условий будет оцениваться при проверке работ. По факту вы можете выполнять только то, что описано в итоговом задании каждого модуля.",
+            "publication_date": "2024-10-04",
+            "article_type": 1,
+            "author_profile_id": 6,
+            "category_id": 1,
+            "rating_id": null
+        },
+        {
+            "id": 61,
+            "title": "Первая новость Дмитрий Ковалёв",
+            "content": "Здравствуйте!\r\n\r\nИнформация в юнитах дана для примера и понимания как работает и как можно реализовать тот или иной функционал. Для этого всякий раз могут использоваться разные проекты, чтобы дать вам информацию, которую вы на своём проекте сможете применить по аналогии, а не просто скопировать из модуля.\r\n\r\nПроекты, показанные в юнитах, являются примерами тех или иных реализаций. Они не являются частью основного вашего проекта и относятся только к текущему юниту.\r\n\r\nВ конце каждого юнита могут быть указаны отдельные задания, связанные с проектом новостного портала и которые вы можете уже сделать по ходу прохождения модуля.\r\n\r\nОднако, стоит иметь в виду, что полные условия итоговых заданий находятся в конце каждого модуля, там где нужно его сдавать на проверку. Выполнение именно этих условий будет оцениваться при проверке работ. По факту вы можете выполнять только то, что описано в итоговом задании каждого модуля.",
+            "publication_date": "2024-10-04",
+            "article_type": 1,
+            "author_profile_id": 6,
+            "category_id": 1,
+            "rating_id": null
+        },
+        {
+            "id": 62,
+            "title": "Вторая новость Ольга Попова",
+            "content": "Информация в юнитах дана для примера и понимания как работает и как можно реализовать тот или иной функционал. Для этого всякий раз могут использоваться разные проекты, чтобы дать вам информацию, которую вы на своём проекте сможете применить по аналогии, а не просто скопировать из модуля.\r\n\r\nПроекты, показанные в юнитах, являются примерами тех или иных реализаций. Они не являются частью основного вашего проекта и относятся только к текущему юниту.",
+            "publication_date": "2024-10-04",
+            "article_type": 1,
+            "author_profile_id": 10,
+            "category_id": 1,
+            "rating_id": null
+        },
+        {
+            "id": 63,
+            "title": "Как я провел лето ",
+            "content": "Я провел лето хорошо. Вот и осень наступила.",
+            "publication_date": "2024-10-04",
+            "article_type": 1,
+            "author_profile_id": 10,
+            "category_id": 1,
+            "rating_id": null
+        },
+        {
+            "id": 64,
+            "title": "Еще одна новость",
+            "content": "Информация в юнитах дана для примера и понимания как работает и как можно реализовать тот или иной функционал. Для этого всякий раз могут использоваться разные проекты, чтобы дать вам информацию, которую вы на своём проекте сможете применить по аналогии, а не просто скопировать из модуля.\r\n\r\nПроекты, показанные в юнитах, являются примерами тех или иных реализаций. Они не являются частью основного вашего проекта и относятся только к текущему юниту.",
+            "publication_date": "2024-10-04",
+            "article_type": 1,
+            "author_profile_id": 10,
+            "category_id": 1,
+            "rating_id": null
+        }
+    ]
+}
